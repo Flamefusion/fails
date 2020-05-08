@@ -1,0 +1,996 @@
+============================================
+PLATFORM_VERSION_CODENAME=REL
+PLATFORM_VERSION=10
+BUILD_ID=QQ2A.200501.001.B3
+HAVOC_VERSION=3.5
+TARGET_PRODUCT=havoc_X00P
+TARGET_BUILD_VARIANT=user
+TARGET_BUILD_TYPE=release
+TARGET_ARCH=arm64
+TARGET_ARCH_VARIANT=armv8-a
+TARGET_CPU_VARIANT=cortex-a53
+TARGET_2ND_ARCH=arm
+TARGET_2ND_ARCH_VARIANT=armv8-a
+TARGET_2ND_CPU_VARIANT=cortex-a53
+OUT_DIR=/home/Flamefusion/havoc/out
+PRODUCT_SOONG_NAMESPACES=vendor/asus/X00P hardware/qcom-caf/msm8996
+============================================
+ninja: no work to do.
+[  0% 1/529] glob AppWidgetHostTest.prof
+[  0% 2/529] glob BackupRestoreConfirmation.prof
+[  0% 3/529] glob AppcompatPhotoViewerSample.prof
+[  0% 4/529] glob BlockedNumberProvider.prof
+[  0% 5/529] glob BookmarkProvider.prof
+[  1% 6/529] glob BuiltInPrintService.prof
+[  1% 7/529] glob CalendarProvider.prof
+[  1% 8/529] glob CallLogBackup.prof
+[  1% 9/529] glob CaptivePortalLogin.prof
+[  1% 10/529] glob CarSystemUI.prof
+[  2% 11/529] glob CarrierConfig.prof
+[  2% 12/529] glob BasicSmsReceiver.prof
+[  2% 13/529] glob BluetoothMidiService.prof
+[  2% 14/529] glob AppWidgetProvider.prof
+[  2% 15/529] glob CarrierDefaultApp.prof
+[  3% 16/529] glob CompanionDeviceManager.prof
+[  3% 17/529] glob CellBroadcastReceiver.prof
+[  3% 18/529] glob CertInstaller.prof
+[  3% 19/529] glob ConfURIDialer.prof
+[  3% 20/529] glob DeskClock.prof
+[  3% 21/529] glob DocumentsUI.prof
+[  4% 22/529] glob DownloadProviderUi.prof
+[  4% 23/529] glob ContactsProvider.prof
+[  4% 24/529] glob DownloadProvider.prof
+[  4% 25/529] glob DozeTest.prof
+[  4% 26/529] glob EasterEgg.prof
+[  5% 27/529] glob EmergencyInfo.prof
+[  5% 28/529] glob ExamplePlugin.prof
+[  5% 29/529] glob ExtServices.prof
+[  5% 30/529] glob ExternalStorageProvider.prof
+[  5% 31/529] glob FakeOemFeatures.prof
+[  6% 32/529] glob FixVibrateSetting.prof
+[  6% 33/529] glob FrameSequenceSample.prof
+[  6% 34/529] glob GL2CameraEye.prof
+[  6% 35/529] glob FusedLocation.prof
+[  6% 36/529] glob GL2JNI.prof
+[  6% 37/529] glob GL2Java.prof
+[  7% 38/529] glob GLDual.prof
+[  7% 39/529] glob GLJNI.prof
+[  7% 40/529] glob GLPerf.prof
+[  7% 41/529] glob HTMLViewer.prof
+[  7% 42/529] glob InProcessNetworkStack.prof
+[  8% 43/529] glob JobSchedulerTestApp.prof
+[  8% 44/529] glob KeyChain.prof
+[  8% 45/529] glob LargeAssetTest.prof
+[  8% 46/529] glob LatinIME.prof
+[  8% 47/529] glob LiveTv.prof
+[  9% 48/529] glob LiveWallpapersPicker.prof
+[  9% 49/529] glob LocalTransport.prof
+[  9% 50/529] glob LotsOfApps.prof
+[  9% 51/529] glob MediaDump.prof
+[  9% 52/529] glob MediaProvider.prof
+[ 10% 53/529] glob MmsService.prof
+[ 10% 54/529] glob MusicFX.prof
+[ 10% 55/529] glob NQNfcNci.prof
+[ 10% 56/529] glob NetworkPermissionConfig.prof
+[ 10% 57/529] glob NetworkStack.prof
+[ 10% 58/529] glob NfcNci.prof
+[ 11% 59/529] glob Nfc.prof
+[ 11% 60/529] glob ONS.prof
+[ 11% 61/529] glob OneMedia.prof
+[ 11% 62/529] glob PacProcessor.prof
+[ 11% 63/529] glob OneTimeInitializer.prof
+[ 12% 64/529] glob OsuLogin.prof
+[ 12% 65/529] glob PackageInstaller.prof
+[ 12% 66/529] glob PartnerBookmarksProvider.prof
+[ 12% 67/529] glob PhotoViewerSample.prof
+[ 12% 68/529] glob PermissionController.prof
+[ 13% 69/529] glob PlatformCaptivePortalLogin.prof
+[ 13% 70/529] glob PlatformNetworkPermissionConfig.prof
+[ 13% 71/529] glob PluginDummyLib.prof
+[ 13% 72/529] glob PresencePolling.prof
+[ 13% 73/529] glob PrintSpooler.prof
+[ 13% 74/529] glob PrivAppPermissionTest.prof
+[ 14% 75/529] glob Provision.prof
+[ 14% 76/529] glob ProxyHandler.prof
+[ 14% 77/529] glob RcsService.prof
+[ 14% 78/529] glob RecoveryLocalizer.prof
+[ 14% 79/529] glob SafetyRegulatoryInfo.prof
+[ 15% 80/529] glob SecureElement.prof
+[ 15% 81/529] glob SettingsIntelligence.prof
+[ 15% 82/529] glob ProductPrivAppPermissionTest.prof
+[ 15% 83/529] glob SettingsProvider.prof
+[ 15% 84/529] glob ProductServicesPrivAppPermissionTest.prof
+[ 16% 85/529] glob SharedLibrary.prof
+[ 16% 86/529] glob SharedStorageBackup.prof
+[ 16% 87/529] glob SoundTriggerTestApp.prof
+[ 16% 88/529] glob StatementService.prof
+[ 16% 89/529] glob Stk.prof
+[ 17% 90/529] glob SurfaceFlingerProperties.prof
+[ 17% 91/529] glob SystemUIWithLegacyRecents.prof
+[ 17% 92/529] glob SystemUI.prof
+[ 17% 93/529] glob SystemUpdaterSample.prof
+[ 17% 94/529] glob Telecom.prof
+[ 17% 95/529] glob TelephonyProvider.prof
+[ 18% 96/529] glob TestEGL.prof
+[ 18% 97/529] glob TestFramerate.prof
+[ 18% 98/529] glob TestLatency.prof
+[ 18% 99/529] glob TestViewport.prof
+[ 18% 100/529] glob TimeZoneUpdater.prof
+[ 19% 101/529] glob TransitionTests.prof
+[ 19% 102/529] glob Traceur.prof
+[ 19% 103/529] glob TvProvider.prof
+[ 19% 104/529] glob UsbHostExternalManagementTestApp.prof
+[ 19% 105/529] glob UniversalMediaPlayer.prof
+[ 20% 106/529] glob UserDictionaryProvider.prof
+[ 20% 107/529] glob VendorPrivAppPermissionTest.prof
+[ 20% 108/529] glob VoiceEnrollment.prof
+[ 20% 109/529] glob VpnDialogs.prof
+[ 20% 110/529] glob WAPPushManager.prof
+[ 20% 111/529] glob WallpaperBackup.prof
+[ 21% 112/529] glob WallpaperCropper.prof
+[ 21% 113/529] glob WallpaperTest.prof
+[ 21% 114/529] glob WfdCommon.prof
+[ 21% 115/529] glob aidl_test_loggable_interface-java.prof
+[ 21% 116/529] glob adbroot_aidl_interface-java.prof
+[ 22% 117/529] glob aidl_test_loggable_interface_ndk-java.prof
+[ 22% 118/529] glob android.car.prof
+[ 22% 119/529] glob android.car.userlib.prof
+[ 22% 120/529] glob android.frameworks.bufferhub-V1.0-java-shallow.prof
+[ 22% 121/529] glob android.frameworks.cameraservice.common-V2.0-java-shallow.prof
+[ 23% 122/529] glob android.frameworks.bufferhub-V1.0-java.prof
+[ 23% 123/529] glob android.frameworks.cameraservice.common-V2.0-java.prof
+[ 23% 124/529] glob android.frameworks.displayservice-V1.0-java-shallow.prof
+[ 23% 125/529] glob android.frameworks.displayservice-V1.0-java.prof
+[ 23% 126/529] glob android.frameworks.schedulerservice-V1.0-java-shallow.prof
+[ 24% 127/529] glob android.frameworks.schedulerservice-V1.0-java.prof
+[ 24% 128/529] glob android.frameworks.stats-V1.0-java-shallow.prof
+[ 24% 129/529] glob android.hardware.atrace-V1.0-java-shallow.prof
+[ 24% 130/529] glob android.hardware.atrace-V1.0-java.prof
+[ 24% 131/529] glob android.hardware.authsecret-V1.0-java.prof
+[ 24% 132/529] glob android.hardware.authsecret-V1.0-java-shallow.prof
+[ 25% 133/529] glob android.hardware.automotive.audiocontrol-V1.0-java-shallow.prof
+[ 25% 134/529] glob android.hardware.automotive.audiocontrol-V1.0-java.prof
+[ 25% 135/529] glob android.hardware.automotive.evs-V1.0-java-shallow.prof
+[ 25% 136/529] glob android.hardware.automotive.evs-V1.0-java.prof
+[ 25% 137/529] glob android.hardware.automotive.vehicle-V2.0-java-shallow.prof
+[ 26% 138/529] glob android.hardware.automotive.vehicle-V2.0-java.prof
+[ 26% 139/529] glob android.hardware.biometrics.face-V1.0-java-shallow.prof
+[ 26% 140/529] glob android.hardware.biometrics.face-V1.0-java.prof
+[ 26% 141/529] glob android.hardware.biometrics.fingerprint-V2.1-java-shallow.prof
+[ 26% 142/529] glob android.hardware.biometrics.fingerprint-V2.1-java.prof
+[ 27% 143/529] glob android.hardware.bluetooth-V1.0-java.prof
+[ 27% 144/529] glob android.hardware.bluetooth-V1.0-java-shallow.prof
+[ 27% 145/529] glob android.hardware.boot-V1.0-java-shallow.prof
+[ 27% 146/529] glob android.hardware.boot-V1.0-java.prof
+[ 27% 147/529] glob android.hardware.broadcastradio-V2.0-java-shallow.prof
+[ 27% 148/529] glob android.hardware.broadcastradio-V2.0-java.prof
+[ 28% 149/529] glob android.hardware.camera.common-V1.0-java-shallow.prof
+[ 28% 150/529] glob android.hardware.camera.common-V1.0-java.prof
+[ 28% 151/529] glob android.frameworks.stats-V1.0-java.prof
+[ 28% 152/529] glob android.hardware.camera.device-V1.0-java-shallow.prof
+[ 28% 153/529] glob android.hardware.camera.metadata-V3.2-java.prof
+[ 29% 154/529] glob android.hardware.camera.metadata-V3.3-java-shallow.prof
+[ 29% 155/529] glob android.hardware.camera.device-V1.0-java.prof
+[ 29% 156/529] glob android.hardware.camera.metadata-V3.3-java.prof
+[ 29% 157/529] glob android.hardware.camera.metadata-V3.4-java-shallow.prof
+[ 29% 158/529] glob android.hardware.camera.metadata-V3.4-java.prof
+[ 30% 159/529] glob android.hardware.cas-V1.0-java.prof
+[ 30% 160/529] glob android.hardware.cas-V1.0-java-shallow.prof
+[ 30% 161/529] glob android.hardware.camera.metadata-V3.2-java-shallow.prof
+[ 30% 162/529] glob android.hardware.cas-V1.1-java-shallow.prof
+[ 30% 163/529] glob android.hardware.cas-V1.1-java.prof
+[ 31% 164/529] glob android.hardware.configstore-V1.0-java-shallow.prof
+[ 31% 165/529] glob android.hardware.configstore-V1.0-java.prof
+[ 31% 166/529] glob android.hardware.configstore-V1.1-java.prof
+[ 31% 167/529] glob android.hardware.configstore-V1.1-java-shallow.prof
+[ 31% 168/529] glob android.hardware.contexthub-V1.0-java-shallow.prof
+[ 31% 169/529] glob android.hardware.contexthub-V1.0-java.prof
+[ 32% 170/529] glob android.hardware.dumpstate-V1.0-java-shallow.prof
+[ 32% 171/529] glob android.hardware.dumpstate-V1.0-java.prof
+[ 32% 172/529] glob android.hardware.fastboot-V1.0-java-shallow.prof
+[ 32% 173/529] glob android.hardware.fastboot-V1.0-java.prof
+[ 32% 174/529] glob android.hardware.gatekeeper-V1.0-java-shallow.prof
+[ 33% 175/529] glob android.hardware.gatekeeper-V1.0-java.prof
+[ 33% 176/529] glob android.hardware.gnss-V1.0-java-shallow.prof
+[ 33% 177/529] glob android.hardware.gnss-V1.0-java.prof
+[ 33% 178/529] glob android.hardware.gnss-V1.1-java-shallow.prof
+[ 33% 179/529] glob android.hardware.gnss-V1.1-java.prof
+[ 34% 180/529] glob android.hardware.gnss-V2.0-java-shallow.prof
+[ 34% 181/529] glob android.hardware.gnss-V2.0-java.prof
+[ 34% 182/529] glob android.hardware.gnss.measurement_corrections-V1.0-java-shallow.prof
+[ 34% 183/529] glob android.hardware.gnss.measurement_corrections-V1.0-java.prof
+[ 34% 184/529] glob android.hardware.gnss.visibility_control-V1.0-java-shallow.prof
+[ 34% 185/529] glob android.hardware.gnss.visibility_control-V1.0-java.prof
+[ 35% 186/529] glob android.hardware.graphics.bufferqueue-V1.0-java-shallow.prof
+[ 35% 187/529] glob android.hardware.graphics.bufferqueue-V2.0-java-shallow.prof
+[ 35% 188/529] glob android.hardware.graphics.bufferqueue-V1.0-java.prof
+[ 35% 189/529] glob android.hardware.graphics.bufferqueue-V2.0-java.prof
+[ 35% 190/529] glob android.hardware.graphics.common-V1.0-java-shallow.prof
+[ 36% 191/529] glob android.hardware.graphics.common-V1.0-java.prof
+[ 36% 192/529] glob android.hardware.graphics.common-V1.1-java-shallow.prof
+[ 36% 193/529] glob android.hardware.graphics.common-V1.1-java.prof
+[ 36% 194/529] glob android.hardware.graphics.common-V1.2-java-shallow.prof
+[ 36% 195/529] glob android.hardware.graphics.common-V1.2-java.prof
+[ 37% 196/529] glob android.hardware.health-V1.0-java-shallow.prof
+[ 37% 197/529] glob android.hardware.health-V1.0-java.prof
+[ 37% 198/529] glob android.hardware.health-V2.0-java-shallow.prof
+[ 37% 199/529] glob android.hardware.health-V2.0-java.prof
+[ 37% 200/529] glob android.hardware.health.storage-V1.0-java-shallow.prof
+[ 37% 201/529] glob android.hardware.input.classifier-V1.0-java-shallow.prof
+[ 38% 202/529] glob android.hardware.health.storage-V1.0-java.prof
+[ 38% 203/529] glob android.hardware.input.classifier-V1.0-java.prof
+[ 38% 204/529] glob android.hardware.input.common-V1.0-java-shallow.prof
+[ 38% 205/529] glob android.hardware.ir-V1.0-java.prof
+[ 38% 206/529] glob android.hardware.input.common-V1.0-java.prof
+[ 39% 207/529] glob android.hardware.ir-V1.0-java-shallow.prof
+[ 39% 208/529] glob android.hardware.light-V2.0-java-shallow.prof
+[ 39% 209/529] glob android.hardware.light-V2.0-java.prof
+[ 39% 210/529] glob android.hardware.media-V1.0-java-shallow.prof
+[ 39% 211/529] glob android.hardware.media-V1.0-java.prof
+[ 40% 212/529] glob android.hardware.memtrack-V1.0-java-shallow.prof
+[ 40% 213/529] glob android.hardware.memtrack-V1.0-java.prof
+[ 40% 214/529] glob android.hardware.nfc-V1.0-java-shallow.prof
+[ 40% 215/529] glob android.hardware.nfc-V1.0-java.prof
+[ 40% 216/529] glob android.hardware.nfc-V1.1-java-shallow.prof
+[ 41% 217/529] glob android.hardware.nfc-V1.1-java.prof
+[ 41% 218/529] glob android.hardware.nfc-V1.2-java-shallow.prof
+[ 41% 219/529] glob android.hardware.nfc-V1.2-java.prof
+[ 41% 220/529] glob android.hardware.oemlock-V1.0-java.prof
+[ 41% 221/529] glob android.hardware.oemlock-V1.0-java-shallow.prof
+[ 41% 222/529] glob android.hardware.power-V1.0-java-shallow.prof
+[ 42% 223/529] glob android.hardware.power-V1.0-java.prof
+[ 42% 224/529] glob android.hardware.power-V1.1-java-shallow.prof
+[ 42% 225/529] glob android.hardware.power-V1.2-java.prof
+[ 42% 226/529] glob android.hardware.power-V1.3-java-shallow.prof
+[ 42% 227/529] glob android.hardware.radio-V1.0-java-shallow.prof
+[ 43% 228/529] glob android.hardware.power-V1.2-java-shallow.prof
+[ 43% 229/529] glob android.hardware.power-V1.3-java.prof
+[ 43% 230/529] glob android.hardware.radio-V1.1-java-shallow.prof
+[ 43% 231/529] glob android.hardware.radio-V1.0-java.prof
+[ 43% 232/529] glob android.hardware.radio-V1.1-java.prof
+[ 44% 233/529] glob android.hardware.radio-V1.3-java-shallow.prof
+[ 44% 234/529] glob android.hardware.radio-V1.2-java-shallow.prof
+[ 44% 235/529] glob android.hardware.radio-V1.3-java.prof
+[ 44% 236/529] glob android.hardware.radio-V1.4-java-shallow.prof
+[ 44% 237/529] glob android.hardware.radio.config-V1.0-java-shallow.prof
+[ 44% 238/529] glob android.hardware.radio-V1.4-java.prof
+[ 45% 239/529] glob android.hardware.radio-V1.2-java.prof
+[ 45% 240/529] glob android.hardware.radio.config-V1.0-java.prof
+[ 45% 241/529] glob android.hardware.radio.config-V1.1-java-shallow.prof
+[ 45% 242/529] glob android.hardware.radio.config-V1.1-java.prof
+[ 45% 243/529] glob android.hardware.radio.config-V1.2-java-shallow.prof
+[ 46% 244/529] glob android.hardware.radio.config-V1.2-java.prof
+[ 46% 245/529] glob android.hardware.radio.deprecated-V1.0-java-shallow.prof
+[ 46% 246/529] glob android.hardware.radio.deprecated-V1.0-java.prof
+[ 46% 247/529] glob android.hardware.secure_element-V1.0-java.prof
+[ 46% 248/529] glob android.hardware.secure_element-V1.0-java-shallow.prof
+[ 47% 249/529] glob android.hardware.secure_element-V1.1-java-shallow.prof
+[ 47% 250/529] glob android.hardware.secure_element-V1.1-java.prof
+[ 47% 251/529] glob android.hardware.tests.baz-V1.0-java-shallow.prof
+[ 47% 252/529] glob android.hardware.tests.baz-V1.0-java.prof
+[ 47% 253/529] glob android.hardware.tests.expression-V1.0-java-shallow.prof
+[ 48% 254/529] glob android.hardware.tests.expression-V1.0-java.prof
+[ 48% 255/529] glob android.hardware.tests.extension.light-V2.0-java-shallow.prof
+[ 48% 256/529] glob android.hardware.tests.extension.light-V2.0-java.prof
+[ 48% 257/529] glob android.hardware.tests.hash-V1.0-java-shallow.prof
+[ 48% 258/529] glob android.hardware.power-V1.1-java.prof
+[ 48% 259/529] glob android.hardware.tests.hash-V1.0-java.prof
+[ 49% 260/529] glob android.hardware.tests.inheritance-V1.0-java-shallow.prof
+[ 49% 261/529] glob android.hardware.tests.inheritance-V1.0-java.prof
+[ 49% 262/529] glob android.hardware.tests.libhwbinder-V1.0-java-shallow.prof
+[ 49% 263/529] glob android.hardware.tests.multithread-V1.0-java-shallow.prof
+[ 49% 264/529] glob android.hardware.tests.libhwbinder-V1.0-java.prof
+[ 50% 265/529] glob android.hardware.tests.multithread-V1.0-java.prof
+[ 50% 266/529] glob android.hardware.tests.safeunion-V1.0-java.prof
+[ 50% 267/529] glob android.hardware.tests.safeunion-V1.0-java-shallow.prof
+[ 50% 268/529] glob android.hardware.tetheroffload.config-V1.0-java.prof
+[ 50% 269/529] glob android.hardware.tetheroffload.config-V1.0-java-shallow.prof
+[ 51% 270/529] glob android.hardware.tetheroffload.control-V1.0-java-shallow.prof
+[ 51% 271/529] glob android.hardware.tetheroffload.control-V1.0-java.prof
+[ 51% 272/529] glob android.hardware.thermal-V1.0-java-shallow.prof
+[ 51% 273/529] glob android.hardware.thermal-V1.0-java.prof
+[ 51% 274/529] glob android.hardware.thermal-V1.1-java.prof
+[ 51% 275/529] glob android.hardware.thermal-V2.0-java-shallow.prof
+[ 52% 276/529] glob android.hardware.thermal-V1.1-java-shallow.prof
+[ 52% 277/529] glob android.hardware.tv.cec-V1.0-java.prof
+[ 52% 278/529] glob android.hardware.tv.cec-V2.0-java-shallow.prof
+[ 52% 279/529] glob android.hardware.tv.cec-V2.0-java.prof
+[ 52% 280/529] glob android.hardware.tv.cec-V1.0-java-shallow.prof
+[ 53% 281/529] glob android.hardware.usb-V1.0-java.prof
+[ 53% 282/529] glob android.hardware.usb-V1.0-java-shallow.prof
+[ 53% 283/529] glob android.hardware.usb-V1.1-java-shallow.prof
+[ 53% 284/529] glob android.hardware.usb-V1.1-java.prof
+[ 53% 285/529] glob android.hardware.usb-V1.2-java-shallow.prof
+[ 54% 286/529] glob android.hardware.thermal-V2.0-java.prof
+[ 54% 287/529] glob android.hardware.usb-V1.2-java.prof
+[ 54% 288/529] glob android.hardware.usb.gadget-V1.0-java-shallow.prof
+[ 54% 289/529] glob android.hardware.usb.gadget-V1.0-java.prof
+[ 54% 290/529] glob android.hardware.vibrator-V1.0-java-shallow.prof
+[ 55% 291/529] glob android.hardware.vibrator-V1.0-java.prof
+[ 55% 292/529] glob android.hardware.vibrator-V1.1-java-shallow.prof
+[ 55% 293/529] glob android.hardware.vibrator-V1.2-java-shallow.prof
+[ 55% 294/529] glob android.hardware.vibrator-V1.1-java.prof
+[ 55% 295/529] glob android.hardware.vibrator-V1.2-java.prof
+[ 55% 296/529] glob android.hardware.vibrator-V1.3-java-shallow.prof
+[ 56% 297/529] glob android.hardware.vr-V1.0-java-shallow.prof
+[ 56% 298/529] glob android.hardware.vr-V1.0-java.prof
+[ 56% 299/529] glob android.hardware.vibrator-V1.3-java.prof
+[ 56% 300/529] glob android.hardware.weaver-V1.0-java-shallow.prof
+[ 56% 301/529] glob android.hardware.weaver-V1.0-java.prof
+[ 57% 302/529] glob android.hardware.wifi-V1.0-java-shallow.prof
+[ 57% 303/529] glob android.hardware.wifi-V1.0-java.prof
+[ 57% 304/529] glob android.hardware.wifi-V1.1-java-shallow.prof
+[ 57% 305/529] glob android.hardware.wifi-V1.1-java.prof
+[ 57% 306/529] glob android.hardware.wifi-V1.2-java.prof
+[ 58% 307/529] glob android.hardware.wifi-V1.2-java-shallow.prof
+[ 58% 308/529] glob android.hardware.wifi-V1.3-java.prof
+[ 58% 309/529] glob android.hardware.wifi-V1.3-java-shallow.prof
+[ 58% 310/529] glob android.hardware.wifi.hostapd-V1.0-java-shallow.prof
+[ 58% 311/529] glob android.hardware.wifi.hostapd-V1.0-java.prof
+[ 58% 312/529] glob android.hardware.wifi.hostapd-V1.1-java.prof
+[ 59% 313/529] glob android.hardware.wifi.hostapd-V1.1-java-shallow.prof
+[ 59% 314/529] glob android.hardware.wifi.supplicant-V1.0-java-shallow.prof
+[ 59% 315/529] glob android.hardware.wifi.supplicant-V1.0-java.prof
+[ 59% 316/529] glob android.hardware.wifi.supplicant-V1.1-java-shallow.prof
+[ 59% 317/529] glob android.hardware.wifi.supplicant-V1.2-java-shallow.prof
+[ 60% 318/529] glob android.hardware.wifi.supplicant-V1.1-java.prof
+[ 60% 319/529] glob android.hardware.wifi.supplicant-V1.2-java.prof
+[ 60% 320/529] glob android.hidl.base-V1.0-java-shallow.prof
+[ 60% 321/529] glob android.hidl.base-V1.0-java.prof
+[ 60% 322/529] glob android.hidl.manager-V1.0-java-shallow.prof
+[ 61% 323/529] glob android.hidl.manager-V1.0-java.prof
+[ 61% 324/529] glob android.hidl.manager-V1.1-java-shallow.prof
+[ 61% 325/529] glob android.hidl.manager-V1.1-java.prof
+[ 61% 326/529] glob android.hidl.manager-V1.2-java-shallow.prof
+[ 61% 327/529] glob android.hidl.safe_union-V1.0-java-shallow.prof
+[ 62% 328/529] glob android.hidl.manager-V1.2-java.prof
+[ 62% 329/529] glob android.hidl.safe_union-V1.0-java.prof
+[ 62% 330/529] glob android.hidl.token-V1.0-java-shallow.prof
+[ 62% 331/529] glob android.hidl.token-V1.0-java.prof
+[ 62% 332/529] glob android.system.net.netd-V1.0-java.prof
+[ 62% 333/529] glob android.system.net.netd-V1.0-java-shallow.prof
+[ 63% 334/529] glob android.system.net.netd-V1.1-java-shallow.prof
+[ 63% 335/529] glob android.system.net.netd-V1.1-java.prof
+[ 63% 336/529] glob android.system.suspend-V1.0-java.prof
+[ 63% 337/529] glob android.system.suspend-V1.0-java-shallow.prof
+[ 63% 338/529] glob android.system.wifi.keystore-V1.0-java-shallow.prof
+[ 64% 339/529] glob android.system.wifi.keystore-V1.0-java.prof
+[ 64% 340/529] glob android.test.base.prof
+[ 64% 341/529] glob android.test.mock.prof
+[ 64% 342/529] glob android.test.runner.prof
+[ 64% 343/529] glob apache-xml.prof
+[ 65% 344/529] glob apex_aidl_interface-java.prof
+[ 65% 345/529] glob ashmemd_aidl_interface-java.prof
+[ 65% 346/529] glob bmgr.prof
+[ 65% 347/529] glob caliper-api-target.prof
+[ 65% 348/529] glob bitmapcache-sample.prof
+[ 65% 349/529] glob car-frameworks-service.prof
+[ 66% 350/529] glob com.android.future.usb.accessory.prof
+[ 66% 351/529] glob com.android.location.provider.prof
+[ 66% 352/529] glob com.android.media.remotedisplay.prof
+[ 66% 353/529] glob com.android.mediadrm.signer.prof
+[ 66% 354/529] glob com.android.nfc_extras.prof
+[ 67% 355/529] glob com.android.sysprop.apex.prof
+[ 67% 356/529] glob com.android.phone.common.prof
+[ 67% 357/529] glob com.android.test.libs.product.prof
+[ 67% 358/529] glob bouncycastle.prof
+[ 67% 359/529] glob com.android.test.libs.product_services.prof
+[ 68% 360/529] glob com.nxp.nfc.nq.prof
+[ 68% 361/529] glob conscrypt.prof
+[ 68% 362/529] glob core-libart.prof
+[ 68% 363/529] glob core-oj.prof
+[ 68% 364/529] glob core/java/**/*.java
+[ 68% 365/529] glob com.qti.snapdragon.sdk.display.prof
+[ 69% 366/529] glob dnsresolver_aidl_interface-V1-java.prof
+[ 69% 367/529] glob drm/java/**/*.java
+[ 69% 368/529] glob dnsresolver_aidl_interface-java.prof
+[ 69% 369/529] glob ethernet-service.prof
+[ 69% 370/529] glob ext.prof
+[ 70% 371/529] glob dnsresolver_aidl_interface-V2-java.prof
+[ 70% 372/529] glob framework-annotation-proc.prof
+[ 70% 373/529] glob framework-atb-backward-compatibility.prof
+[ 70% 374/529] glob framework.prof
+[ 70% 375/529] glob graphics/java/**/*.java
+[ 71% 376/529] glob gsi_aidl_interface-java.prof
+[ 71% 377/529] glob hardware.google.light-V1.0-java-shallow.prof
+[ 71% 378/529] glob hardware.google.light-V1.0-java.prof
+[ 71% 379/529] glob hardware.google.light-V1.1-java-shallow.prof
+[ 71% 380/529] glob hardware.google.light-V1.1-java.prof
+[ 72% 381/529] glob hidl.tests.vendor-V1.0-java-shallow.prof
+[ 72% 382/529] glob hidl.tests.vendor-V1.0-java.prof
+[ 72% 383/529] glob hidl.tests.vendor-V1.1-java-shallow.prof
+[ 72% 384/529] glob hidl.tests.vendor-V1.1-java.prof
+[ 72% 385/529] glob ims-common.prof
+[ 72% 386/529] glob ims-ext-common.prof
+[ 73% 387/529] glob ipmemorystore-aidl-interfaces-V1-java.prof
+[ 73% 388/529] glob ipmemorystore-aidl-interfaces-V2-java.prof
+[ 73% 389/529] glob ipmemorystore-aidl-interfaces-V3-java.prof
+[ 73% 390/529] glob ipmemorystore-aidl-interfaces-java.prof
+[ 73% 391/529] glob jacocoagent.prof
+[ 74% 392/529] glob javax.obex.prof
+[ 74% 393/529] glob libChipsSample.prof
+[ 74% 394/529] glob libbinder_ndk_test_interface-V1-java.prof
+[ 74% 395/529] glob libbinder_ndk_test_interface-V2-java.prof
+[ 74% 396/529] glob libbinder_ndk_test_interface-java.prof
+[ 75% 397/529] glob keystore/java/**/*.java
+[ 75% 398/529] glob liblpdump_interface-java.prof
+[ 75% 399/529] glob location/java/**/*.java
+[ 75% 400/529] glob lowpan/java/**/*.java
+[ 75% 401/529] glob media/java/**/*.java
+[ 75% 402/529] glob media/mca/effect/java/**/*.java
+[ 76% 403/529] glob media.prof
+[ 76% 404/529] glob media/mca/filterfw/java/**/*.java
+[ 76% 405/529] glob media/mca/filterpacks/java/**/*.java
+[ 76% 406/529] glob netd_aidl_interface-V1-java.prof
+[ 76% 407/529] glob netd_aidl_interface-V2-java.prof
+[ 77% 408/529] glob netd_aidl_interface-java.prof
+[ 77% 409/529] glob netd_event_listener_interface-V1-java.prof
+[ 77% 410/529] glob netd_event_listener_interface-java.prof
+[ 77% 411/529] glob networkStatsFactory-benchmarks.prof
+[ 77% 412/529] glob networkstack-aidl-interfaces-V2-java.prof
+[ 78% 413/529] glob networkstack-aidl-interfaces-V3-java.prof
+[ 78% 414/529] glob networkstack-aidl-interfaces-V1-java.prof
+[ 78% 415/529] glob networkstack-aidl-interfaces-java.prof
+[ 78% 416/529] glob okhttp.prof
+[ 78% 417/529] glob oemnetd_aidl_interface-java.prof
+[ 79% 418/529] glob opengl/java/**/*.java
+[ 79% 419/529] glob pixelpowerstats_provider_aidl_interface-java.prof
+[ 79% 420/529] glob qcom.fmradio.prof
+[ 79% 421/529] glob qtiImsInCallUi.prof
+[ 79% 422/529] glob suspend_control_aidl_interface-java.prof
+[ 79% 423/529] glob rs/java/**/*.java
+[ 80% 424/529] glob telecomm/java/**/*.java
+[ 80% 425/529] glob sax/java/**/*.java
+[ 80% 426/529] glob telephony-common.prof
+[ 80% 427/529] glob telephony-ext.prof
+[ 80% 428/529] glob test-piece-1-V1-java.prof
+[ 81% 429/529] glob test-piece-1-java.prof
+[ 81% 430/529] glob test-piece-2-V1-java.prof
+[ 81% 431/529] glob test-piece-2-java.prof
+[ 81% 432/529] glob test-piece-3-V1-java.prof
+[ 81% 433/529] glob test-piece-3-java.prof
+[ 82% 434/529] glob telephony/java/**/*.java
+[ 82% 435/529] glob test-piece-4-V1-java.prof
+[ 82% 436/529] glob test-piece-4-java.prof
+[ 82% 437/529] glob test-root-package-V1-java.prof
+[ 82% 438/529] glob test-root-package-V2-java.prof
+[ 82% 439/529] glob test-root-package-java.prof
+[ 83% 440/529] glob test-vendor-java.prof
+[ 83% 441/529] glob vendor.display.config-V1.0-java-shallow.prof
+[ 83% 442/529] glob updatable-media.prof
+[ 83% 443/529] glob vendor.display.config-V1.1-java-shallow.prof
+[ 83% 444/529] glob vendor.display.config-V1.0-java.prof
+[ 84% 445/529] glob vendor.display.config-V1.1-java.prof
+[ 84% 446/529] glob vendor.display.config-V1.10-java-shallow.prof
+[ 84% 447/529] glob vendor.display.config-V1.10-java.prof
+[ 84% 448/529] glob vendor.display.config-V1.11-java-shallow.prof
+[ 84% 449/529] glob vendor.display.config-V1.12-java-shallow.prof
+[ 85% 450/529] glob vendor.display.config-V1.11-java.prof
+[ 85% 451/529] glob vendor.display.config-V1.12-java.prof
+[ 85% 452/529] glob vendor.display.config-V1.13-java-shallow.prof
+[ 85% 453/529] glob vendor.display.config-V1.13-java.prof
+[ 85% 454/529] glob vendor.display.config-V1.15-java-shallow.prof
+[ 86% 455/529] glob vendor.display.config-V1.14-java-shallow.prof
+[ 86% 456/529] glob vendor.display.config-V1.14-java.prof
+[ 86% 457/529] glob vendor.display.config-V1.15-java.prof
+[ 86% 458/529] glob vendor.display.config-V1.16-java-shallow.prof
+[ 86% 459/529] glob vendor.display.config-V1.16-java.prof
+[ 86% 460/529] glob vendor.display.config-V1.2-java-shallow.prof
+[ 87% 461/529] glob vendor.display.config-V1.2-java.prof
+[ 87% 462/529] glob vendor.display.config-V1.3-java-shallow.prof
+[ 87% 463/529] glob vendor.display.config-V1.3-java.prof
+[ 87% 464/529] glob vendor.display.config-V1.4-java-shallow.prof
+[ 87% 465/529] glob vendor.display.config-V1.4-java.prof
+[ 88% 466/529] glob vendor.display.config-V1.5-java-shallow.prof
+[ 88% 467/529] glob vendor.display.config-V1.5-java.prof
+[ 88% 468/529] glob vendor.display.config-V1.6-java-shallow.prof
+[ 88% 469/529] glob vendor.display.config-V1.7-java.prof
+[ 88% 470/529] glob vendor.display.config-V1.8-java-shallow.prof
+[ 89% 471/529] glob vendor.display.config-V1.6-java.prof
+[ 89% 472/529] glob vendor.display.config-V1.7-java-shallow.prof
+[ 89% 473/529] glob vendor.display.config-V1.8-java.prof
+[ 89% 474/529] glob vendor.display.config-V1.9-java-shallow.prof
+[ 89% 475/529] glob vendor.display.config-V2.0-java-shallow.prof
+[ 89% 476/529] glob vendor.display.config-V1.9-java.prof
+[ 90% 477/529] glob vendor.display.config-V2.0-java.prof
+[ 90% 478/529] glob vendor.lineage.audio_amplifier-V1.0-java-shallow.prof
+[ 90% 479/529] glob vendor.lineage.biometrics.fingerprint.inscreen-V1.0-java-shallow.prof
+[ 90% 480/529] glob vendor.lineage.audio_amplifier-V1.0-java.prof
+[ 90% 481/529] glob vendor.lineage.biometrics.fingerprint.inscreen-V1.0-java.prof
+[ 91% 482/529] glob vendor.lineage.camera.motor-V1.0-java-shallow.prof
+[ 91% 483/529] glob vendor.lineage.camera.motor-V1.0-java.prof
+[ 91% 484/529] glob vendor.lineage.livedisplay-V2.0-java-shallow.prof
+[ 91% 485/529] glob vendor.lineage.livedisplay-V2.0-java.prof
+[ 91% 486/529] glob vendor.lineage.power-V1.0-java-shallow.prof
+[ 92% 487/529] glob vendor.lineage.power-V1.0-java.prof
+[ 92% 488/529] glob vendor.lineage.touch-V1.0-java-shallow.prof
+[ 92% 489/529] glob vendor.lineage.touch-V1.0-java.prof
+[ 92% 490/529] glob vendor.nxp.hardware.nfc-V1.0-java-shallow.prof
+[ 92% 491/529] glob vendor.nxp.hardware.nfc-V1.0-java.prof
+[ 93% 492/529] glob vendor.nxp.hardware.nfc-V1.1-java.prof
+[ 93% 493/529] glob vendor.nxp.hardware.nfc-V1.1-java-shallow.prof
+[ 93% 494/529] glob vendor.nxp.nxpese-V1.0-java-shallow.prof
+[ 93% 495/529] glob vendor.nxp.nxpese-V1.0-java.prof
+[ 93% 496/529] glob vendor.nxp.nxpnfc-V1.0-java.prof
+[ 93% 497/529] glob vendor.nxp.nxpnfc-V1.0-java-shallow.prof
+[ 94% 498/529] glob vendor.qti.hardware.bluetooth_dun-V1.0-java-shallow.prof
+[ 94% 499/529] glob vendor.qti.hardware.bluetooth_dun-V1.0-java.prof
+[ 94% 500/529] glob vendor.qti.hardware.camera.device-V1.0-java-shallow.prof
+[ 94% 501/529] glob vendor.qti.hardware.camera.postproc-V1.0-java-shallow.prof
+[ 94% 502/529] glob vendor.qti.hardware.camera.device-V1.0-java.prof
+[ 95% 503/529] glob vendor.qti.hardware.camera.postproc-V1.0-java.prof
+[ 95% 504/529] glob vendor.qti.hardware.cryptfshw-V1.0-java-shallow.prof
+[ 95% 505/529] glob vendor.qti.hardware.cryptfshw-V1.0-java.prof
+[ 95% 506/529] glob vendor.qti.hardware.fstman-V1.0-java-shallow.prof
+[ 95% 507/529] glob vendor.qti.hardware.fstman-V1.0-java.prof
+[ 96% 508/529] glob vendor.qti.hardware.servicetracker-V1.0-java.prof
+[ 96% 509/529] glob vendor.qti.hardware.servicetracker-V1.0-java-shallow.prof
+[ 96% 510/529] glob vendor.qti.hardware.servicetracker-V1.1-java-shallow.prof
+[ 96% 511/529] glob vendor.qti.hardware.servicetracker-V1.1-java.prof
+[ 96% 512/529] glob vendor.qti.hardware.systemhelper-V1.0-java-shallow.prof
+[ 96% 513/529] glob vendor.qti.hardware.systemhelper-V1.0-java.prof
+[ 97% 514/529] glob vendor.qti.hardware.wifi-V1.0-java-shallow.prof
+[ 97% 515/529] glob vendor.qti.hardware.wifi-V1.0-java.prof
+[ 97% 516/529] glob vendor.qti.hardware.wifi.hostapd-V1.0-java-shallow.prof
+[ 97% 517/529] glob vendor.qti.hardware.wifi.hostapd-V1.0-java.prof
+[ 97% 518/529] glob vendor.qti.hardware.wifi.hostapd-V1.1-java-shallow.prof
+[ 98% 519/529] glob vendor.qti.hardware.wifi.hostapd-V1.1-java.prof
+[ 98% 520/529] glob vendor.qti.hardware.wifi.supplicant-V1.0-java-shallow.prof
+[ 98% 521/529] glob vendor.qti.hardware.wifi.supplicant-V2.0-java-shallow.prof
+[ 98% 522/529] glob vendor.qti.hardware.wifi.supplicant-V1.0-java.prof
+[ 98% 523/529] glob vendor.qti.hardware.wifi.supplicant-V2.0-java.prof
+[ 99% 524/529] glob vendor.qti.hardware.wifi.supplicant-V2.1-java-shallow.prof
+[ 99% 525/529] glob vendor.qti.hardware.wifi.supplicant-V2.1-java.prof
+[ 99% 526/529] glob vmtests-mains.prof
+[ 99% 527/529] glob voip-common.prof
+[ 99% 528/529] glob wifi/java/**/*.java
+$(shell date -u +%H%M) was changed, regenerating...
+$(shell date -u +%H%M) was changed, regenerating...
+[100% 529/529] initializing build system ...
+device/asus/X00P/vndk/Android.mk:2: warning: ************* BOARD VNDK is not enabled - compiling vndk-sp ***************************
+[ 99% 530/531] finishing build rules ...
+[100% 531/531] writing build rules ...
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.thermal@1.0-service'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.thermal@1.0-service'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc'
+build/make/core/base_rules.mk:502: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.thermal@1.0-service.rc'
+build/make/core/base_rules.mk:502: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.thermal@1.0-service.rc'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/android.hardware.thermal@1.0-impl.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/android.hardware.thermal@1.0-impl.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/audio.bluetooth.default.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/hw/audio.bluetooth.default.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/libbluetooth_audio_session.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/libbluetooth_audio_session.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/mediadrm/libdrmclearkeyplugin.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/soundfx/libaudiopreprocessing.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/soundfx/libaudiopreprocessing.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/android.hardware.thermal@1.0-impl.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/audio.bluetooth.default.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/audio.bluetooth.default.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libbluetooth_audio_session.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libbluetooth_audio_session.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libsensorndkbridge.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libsensorndkbridge.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libtinycompress.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/libtinycompress.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/mediadrm/libdrmclearkeyplugin.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/mediadrm/libdrmclearkeyplugin.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/soundfx/libaudiopreprocessing.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/soundfx/libaudiopreprocessing.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc'
+build/make/core/base_rules.mk:502: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/libgui_vendor.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib/libgui_vendor.so'
+build/make/core/Makefile:28: warning: overriding commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/fingerprint.default.so'
+build/make/core/base_rules.mk:487: warning: ignoring old commands for target `/home/Flamefusion/havoc/out/target/product/X00P/vendor/lib64/hw/fingerprint.default.so'
+No need to regenerate ninja file
+Starting ninja...
+[ 93% 532/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ/.additional_config
+[ 94% 533/566] IMS lib link: /home/Flamefusion/havoc/out/target/product/X00P/system/product/priv-app/ims/lib/arm64/libimscamera_jni.so
+[ 94% 534/566] IMS lib link: /home/Flamefusion/havoc/out/target/product/X00P/system/product/priv-app/ims/lib/arm64/libimsmedia_jni.so
+[ 94% 535/566] Target buildinfo: /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/system_build_prop_intermediates/build.prop
+[ 94% 536/566] Target buildinfo: /home/Flamefusion/havoc/out/target/product/X00P/system/etc/prop.default
+[ 94% 537/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE_PRODUCT.xml
+[ 95% 538/566] Target buildinfo: /home/Flamefusion/havoc/out/target/product/X00P/vendor/default.prop
+[ 95% 539/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE_PRODUCT.xml.gz
+[ 95% 540/566] build /home/Flamefusion/havoc/out/target/product/X00P/system/product/etc/NOTICE.xml.gz
+[ 95% 541/566] Target vendor buildinfo: /home/Flamefusion/havoc/out/target/product/X00P/vendor/build.prop
+[ 95% 542/566] Target recovery buildinfo: /home/Flamefusion/havoc/out/target/product/X00P/recovery/root/prop.default
+[ 95% 543/566] Installed file list: /home/Flamefusion/havoc/out/target/product/X00P/installed-files-root.txt
+[ 96% 544/566] Installed file list: /home/Flamefusion/havoc/out/target/product/X00P/installed-files-ramdisk.txt
+[ 96% 545/566] Target ram disk: /home/Flamefusion/havoc/out/target/product/X00P/ramdisk.img
+[ 96% 546/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE_VENDOR.xml
+[ 96% 547/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE_VENDOR.xml.gz
+[ 96% 548/566] build /home/Flamefusion/havoc/out/target/product/X00P/vendor/etc/NOTICE.xml.gz
+[ 96% 549/566] Verifying vendor VINTF manifest.
+[ 97% 550/566] Installed file list: /home/Flamefusion/havoc/out/target/product/X00P/installed-files-vendor.txt
+[ 97% 551/566] Building Kernel Config
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+arch/arm64/configs/X00P_defconfig:261:warning: symbol value 'Y' invalid for DTV_FC8350_SUPPORT
+#
+# configuration written to .config
+#
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --savedefconfig=defconfig Kconfig
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+[ 97% 552/566] Building Kernel
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     scripts/mod/devicetable-offsets.h
+  Using /home/Flamefusion/havoc/kernel/asus/X00P as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/Flamefusion/havoc/kernel/asus/X00P/scripts/checksyscalls.sh
+make[2]: 'include/generated/vdso-offsets.h' is up to date.
+  CHK     include/generated/compile.h
+  CHK     kernel/config_data.h
+  DTC     arch/arm64/boot/dts/qcom/msm8953-rumi.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8940-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8940-qrd-sku7.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-iot-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8037-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-lite-ext-codec-dragon-v2.0.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8940-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-rumi.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8940-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8937-qrd-sku5.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8937-ext-codec-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-qrd-sku1.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8940-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8940-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8037-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8950-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8940-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8937-qrd-sku2-dvt1.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-v2-rumi.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-ext-audio-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-sim.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-rumi.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-qgp-tmo.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-ipc.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8940-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-qrd-sku6.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-cdp-1200p.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-v2-sim.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8940-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8950-ext-codec-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-ext-codec-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-lite-dragon-v1.0.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-ext-codec-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-no-pmi-wcd-rome-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8940-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8940-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-lite-dragon-v2.0.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8037-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8940-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8937-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8952-qrd-skum.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-ext-codec-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8937-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8037-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-ext-codec-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8937-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-sim.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8952-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8937-qrd-sku2.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-qrd-sku1-dvt1.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-rumi.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-ext-codec-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8952-ext-codec-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8937-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8937-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8920-pmi8950-ext-codec-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8950-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-v2-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-ipc.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8940-qrd-sku7.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-iot-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-pmi8940-ext-codec-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8053-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8952-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msmcobalt-v2-cdp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8937-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8937-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8950-cdp-wcd-rome.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8950-mtp.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8950-cdp-mirror-lake-touch.dtb
+  DTC     arch/arm64/boot/dts/qcom/apq8017-pmi8937-cdp-wcd-rome.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8917-pmi8950-rcm.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8953-qrd-sku3.dtb
+  DTC     arch/arm64/boot/dts/qcom/msm8940-pmi8950-qrd-sku7.dtb
+  CAT     arch/arm64/boot/Image.gz-dtb
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+Building DTBs
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  CHK     scripts/mod/devicetable-offsets.h
+  Using /home/Flamefusion/havoc/kernel/asus/X00P as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/Flamefusion/havoc/kernel/asus/X00P/scripts/checksyscalls.sh
+make[2]: 'include/generated/vdso-offsets.h' is up to date.
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+Building Kernel Modules
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  CHK     include/config/kernel.release
+  GEN     ./Makefile
+  CHK     include/generated/uapi/linux/version.h
+  Using /home/Flamefusion/havoc/kernel/asus/X00P as source for kernel
+  CHK     include/generated/utsrelease.h
+  CHK     scripts/mod/devicetable-offsets.h
+  CHK     include/generated/bounds.h
+  CHK     include/generated/asm-offsets.h
+  CALL    /home/Flamefusion/havoc/kernel/asus/X00P/scripts/checksyscalls.sh
+make[2]: 'include/generated/vdso-offsets.h' is up to date.
+  Building modules, stage 2.
+  MODPOST 12 modules
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+Installing Kernel Modules
+make: Entering directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+make[1]: Entering directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+  INSTALL block/test-iosched.ko
+  INSTALL crypto/ansi_cprng.ko
+  INSTALL drivers/char/rdbg.ko
+  INSTALL drivers/input/evbug.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  INSTALL drivers/mmc/card/mmc_block_test.ko
+  INSTALL drivers/mmc/card/mmc_test.ko
+  INSTALL drivers/net/wireless/ath/wil6210/wil6210.ko
+  INSTALL drivers/scsi/ufs/ufs_test.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  INSTALL drivers/video/backlight/backlight.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  INSTALL drivers/video/backlight/generic_bl.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  INSTALL drivers/video/backlight/lcd.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  INSTALL net/bridge/br_netfilter.ko
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+Can't locate Getopt/Std.pm in @INC (you may need to install the Getopt::Std module) (@INC contains: /home/Flamefusion/havoc/prebuilts/tools-extras/common/perl-base /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.26.1 /usr/local/share/perl/5.26.1 /usr/lib/x86_64-linux-gnu/perl5/5.26 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.26 /usr/share/perl/5.26 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base) at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+BEGIN failed--compilation aborted at /home/Flamefusion/havoc/kernel/asus/X00P/scripts/sign-file line 13.
+  DEPMOD  3.18.140-perf-gf53d604-dirty
+make[1]: Leaving directory '/home/Flamefusion/havoc/out/target/product/X00P/obj/KERNEL_OBJ'
+make: Leaving directory '/home/Flamefusion/havoc/kernel/asus/X00P'
+depmod: WARNING: could not open modules.order at /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0: No such file or directory
+depmod: WARNING: could not open modules.builtin at /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/depmod_vendor_intermediates/lib/modules/0.0: No such file or directory
+[ 97% 553/566] target Prebuilt: robolectric_android-all-stub (/home/Flamefusion/havoc/out/target/product/X00P/kernel)
+[ 97% 554/566] Target boot image: /home/Flamefusion/havoc/out/target/product/X00P/boot.img
+[ 98% 555/566] Target vendor fs image: /home/Flamefusion/havoc/out/target/product/X00P/vendor.img
+[ 98% 556/566] ----- Making recovery image ------
+Generating changelog...
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+repo: warning: Python 2 is no longer supported; Please upgrade to Python 3.6+.
+----- Making uncompressed recovery ramdisk ------
+[ 98% 557/566] ----- Making compressed recovery ramdisk ------
+[ 98% 558/566] ----- Making recovery image ------
+[ 98% 559/566] Target build info: /home/Flamefusion/havoc/out/target/product/X00P/system/build.prop
+[ 98% 560/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE.xml
+[ 99% 561/566] build /home/Flamefusion/havoc/out/target/product/X00P/obj/NOTICE.xml.gz
+[ 99% 562/566] build /home/Flamefusion/havoc/out/target/product/X00P/system/etc/NOTICE.xml.gz
+[ 99% 563/566] Verifying framework VINTF manifest.
+[ 99% 564/566] Package target files: /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip
+FAILED: /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip
+/bin/bash -c "(if [ -d /home/Flamefusion/havoc/out/target/product/X00P/system/vendor ] && [ ! -h /home/Flamefusion/havoc/out/target/product/X00P/system/vendor ]; then echo 'Non-symlink /home/Flamefusion/havoc/out/target/product/X00P/system/vendor detected!' 1>&2; echo 'You cannot install files to /home/Flamefusion/havoc/out/target/product/X00P/system/vendor while building a separate vendor.img!' 1>&2; exit 1; fi ) && (ln -sf /vendor /home/Flamefusion/havoc/out/target/product/X00P/system/vendor ) && (rm -rf /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip.list /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/ /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/recovery/root\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/recovery/root)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/RAMDISK && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/recovery/root/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/RAMDISK; fi ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/install\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/install)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/INSTALL && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/install/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/INSTALL; fi ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/kernel /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/kernel ) && (echo \"console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive loop.max_part=7 buildvariant=user\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/cmdline ) && (echo \"0x80000000\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/base ) && (echo \"2048\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/pagesize ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/ROOT ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/root\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/root)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/ROOT && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/root/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/ROOT; fi ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/kernel /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT/kernel ) && (echo \"console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive loop.max_part=7 buildvariant=user\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT/cmdline ) && (echo \"0x80000000\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT/base ) && (echo \"2048\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT/pagesize ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/system\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/system)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/SYSTEM && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/system/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/SYSTEM; fi ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/data\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/data)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/DATA && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/data/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/DATA; fi ) && (if [ -d \"/home/Flamefusion/havoc/out/target/product/X00P/vendor\" -a \"\$(ls -A  /home/Flamefusion/havoc/out/target/product/X00P/vendor)\" ]; then mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/VENDOR && prebuilts/build-tools/linux-x86/bin/acp -rd /home/Flamefusion/havoc/out/target/product/X00P/vendor/* /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/VENDOR; fi ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/OTA ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/android-info.txt /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/OTA/ ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/OTA/bin ) && (cp  /home/Flamefusion/havoc/out/target/product/X00P/obj/EXECUTABLES/updater_intermediates/updater /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/OTA/bin/ ) && (mkdir -p /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/apkcerts_intermediates/havoc_X00P-apkcerts-eng.Flamefusion.txt /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/apkcerts.txt ) && (cp /home/Flamefusion/havoc/out/soong/apexkeys.txt /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/apexkeys.txt ) && (echo \"\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/otakeys.txt ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/file_contexts.bin ) && (echo \"recovery_api_version=3\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"fstab_version=2\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"blocksize=131072\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"boot_size=67108864\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"recovery_size=67108864\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"recovery_mount_options=ext4=max_batch_time=0,commit=1,data=ordered,barrier=1,errors=panic,nodelalloc\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"tool_extensions=device/asus/X00P/../common\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"default_system_dev_certificate=build/make/target/product/security/testkey\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo 'mkbootimg_args=--ramdisk_offset 0x01000000 --tags_offset 0x00000100' >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo 'mkbootimg_version_args=--os_version 10 --os_patch_level 2020-05-05' >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"use_set_metadata=1\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"multistage_support=1\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"blockimgdiff_versions=3,4\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"system_size=3460300800\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"userdata_size=24892644864\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"cache_fs_type=ext4\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"cache_size=157286400\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"vendor_fs_type=ext4\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"vendor_size=681574400\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"ext_mkuserimg=mkuserimg_mke2fs\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"fs_type=ext4\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"extfs_sparse_flag=-s\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"squashfs_sparse_flag=-s\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"selinux_fc=/home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"system_root_image=true\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"root_dir=/home/Flamefusion/havoc/out/target/product/X00P/root\" >>  /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (PATH=/home/Flamefusion/havoc/out/host/linux-x86/bin/:\$PATH MKBOOTIMG=/home/Flamefusion/havoc/out/host/linux-x86/bin/mkbootimg 	    build/make/tools/releasetools/make_recovery_patch /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion ) && (echo \"ota_override_device=auto\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"lpmake=lpmake\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && (echo \"super_metadata_device=\" >> /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/misc_info.txt ) && ((cd /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/SYSTEM; find . -type d | sed 's,\$,/,'; find . \\! -type d) | cut -c 3- | sort | sed 's,^,system/,' | /home/Flamefusion/havoc/out/host/linux-x86/bin/fs_config -C -D /home/Flamefusion/havoc/out/target/product/X00P/system -S /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -R \"system/\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/filesystem_config.txt ) && ((cd /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/VENDOR; find . -type d | sed 's,\$,/,'; find . \\! -type d) | cut -c 3- | sort | sed 's,^,vendor/,' | /home/Flamefusion/havoc/out/host/linux-x86/bin/fs_config -C -D /home/Flamefusion/havoc/out/target/product/X00P/system -S /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -R \"vendor/\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/vendor_filesystem_config.txt ) && ((cd /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/ROOT; find . -type d | sed 's,\$,/,'; find . \\! -type d) | cut -c 3- | sort | sed 's,^,,' | /home/Flamefusion/havoc/out/host/linux-x86/bin/fs_config -C -D /home/Flamefusion/havoc/out/target/product/X00P/system -S /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -R \"\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/root_filesystem_config.txt ) && ((cd /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/RAMDISK; find . -type d | sed 's,\$,/,'; find . \\! -type d) | cut -c 3- | sort | sed 's,^,,' | /home/Flamefusion/havoc/out/host/linux-x86/bin/fs_config -C -D /home/Flamefusion/havoc/out/target/product/X00P/system -S /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/file_contexts.bin_intermediates/file_contexts.bin -R \"\" > /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/recovery_filesystem_config.txt ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/verified_assembled_system_matrix.xml_intermediates/verified_assembled_system_matrix.xml /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/system_matrix.xml ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/verified_assembled_framework_manifest.xml /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/system_manifest.xml ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/verified_assembled_vendor_manifest.xml /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/vendor_manifest.xml ) && (cp /home/Flamefusion/havoc/out/target/product/X00P/obj/ETC/device_compatibility_matrix.xml_intermediates/compatibility_matrix.xml /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/vendor_matrix.xml ) && (PATH=/home/Flamefusion/havoc/out/host/linux-x86/bin/:\$PATH MKBOOTIMG=/home/Flamefusion/havoc/out/host/linux-x86/bin/mkbootimg 	    build/make/tools/releasetools/add_img_to_target_files -a -r -v -p /home/Flamefusion/havoc/out/host/linux-x86 /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion ) && (find /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META | sort >/home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip.list ) && (find /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion -path /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META -prune -o -print | sort >>/home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip.list ) && (/home/Flamefusion/havoc/out/soong/host/linux-x86/bin/soong_zip -L 0 -d -o /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip -C /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion -l /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion.zip.list )"
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read ODM/build.prop
+2020-05-08 05:41:30 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read PRODUCT/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read PRODUCT/etc/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read PRODUCT_SERVICES/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read PRODUCT_SERVICES/etc/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read ODM/build.prop
+2020-05-08 05:41:49 - common.py - WARNING : Failed to read ODM/etc/build.prop
+2020-05-08 05:41:49 - add_img_to_target_files - INFO    : 
+
+++++ boot  ++++
+
+
+2020-05-08 05:41:49 - common.py - INFO    : building image from target_files BOOT...
+2020-05-08 05:41:49 - common.py - INFO    :   Running: "/home/Flamefusion/havoc/out/host/linux-x86/bin/mkbootimg --kernel /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/BOOT/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive loop.max_part=7 buildvariant=user --base 0x80000000 --pagesize 2048 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --os_version 10 --os_patch_level 2020-05-05 --output /home/Flamefusion/havoc/out/soong/.temp/tmpb2X2Yc"
+2020-05-08 05:41:50 - common.py - INFO    : 
+2020-05-08 05:41:50 - add_img_to_target_files - INFO    : 
+
+++++ recovery  ++++
+
+
+2020-05-08 05:41:50 - common.py - INFO    : building image from target_files RECOVERY...
+2020-05-08 05:41:50 - common.py - INFO    :   Running: "mkbootfs -f /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/recovery_filesystem_config.txt /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/RAMDISK"
+2020-05-08 05:41:50 - common.py - INFO    :   Running: "minigzip"
+2020-05-08 05:41:51 - common.py - INFO    :   Running: "/home/Flamefusion/havoc/out/host/linux-x86/bin/mkbootimg --kernel /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive loop.max_part=7 buildvariant=user --base 0x80000000 --pagesize 2048 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --os_version 10 --os_patch_level 2020-05-05 --ramdisk /home/Flamefusion/havoc/out/soong/.temp/tmpmJYwrd --output /home/Flamefusion/havoc/out/soong/.temp/tmp6EPmGD"
+2020-05-08 05:41:51 - common.py - INFO    : 
+2020-05-08 05:41:51 - add_img_to_target_files - INFO    : 
+
+++++ recovery (two-step image)  ++++
+
+
+2020-05-08 05:41:51 - common.py - INFO    : building image from target_files RECOVERY...
+2020-05-08 05:41:51 - common.py - INFO    :   Running: "mkbootfs -f /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/recovery_filesystem_config.txt /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/RAMDISK"
+2020-05-08 05:41:51 - common.py - INFO    :   Running: "minigzip"
+2020-05-08 05:41:52 - common.py - INFO    :   Running: "/home/Flamefusion/havoc/out/host/linux-x86/bin/mkbootimg --kernel /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/RECOVERY/kernel --cmdline console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 lpm_levels.sleep_disabled=1 androidboot.bootdevice=7824900.sdhci earlycon=msm_hsl_uart,0x78B0000 androidboot.selinux=permissive loop.max_part=7 buildvariant=user --base 0x80000000 --pagesize 2048 --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --os_version 10 --os_patch_level 2020-05-05 --ramdisk /home/Flamefusion/havoc/out/soong/.temp/tmpqkiQMX --output /home/Flamefusion/havoc/out/soong/.temp/tmpynITFZ"
+2020-05-08 05:41:53 - common.py - INFO    : 
+2020-05-08 05:41:53 - add_img_to_target_files - INFO    : 
+
+++++ system  ++++
+
+
+2020-05-08 05:41:53 - add_img_to_target_files - INFO    : Building new recovery patch
+2020-05-08 05:41:53 - common.py - INFO    :   Running: "bsdiff /home/Flamefusion/havoc/out/soong/.temp/tmpqesYCj /home/Flamefusion/havoc/out/soong/.temp/tmp7eg00r /home/Flamefusion/havoc/out/soong/.temp/tmp56XXi3"
+2020-05-08 05:42:08 - common.py - INFO    : putting script in bin/install-recovery.sh
+2020-05-08 05:42:08 - add_img_to_target_files - INFO    : creating system.img...
+2020-05-08 05:42:10 - common.py - INFO    :   Running: "mkuserimg_mke2fs -s /home/Flamefusion/havoc/out/soong/.temp/tmpo5eO91 /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img ext4 / 3460300800 -j 0 -T 1230768000 -C /home/Flamefusion/havoc/out/soong/.temp/merged_fs_config3l8cRk.txt -B /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.map -L / -M 0 -U e1a64d63-95b9-508d-994f-43dad7dbbce7 -S 670a2316-206b-5f46-81fd-1d8f6c091809 --inode_size 256 /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/file_contexts.bin"
+2020-05-08 05:42:14 - common.py - INFO    : 05:42:10 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/Flamefusion/havoc/out/soong/.temp/tmpoYW2s8'}
+05:42:10 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -I 256 -M / -m 0 -U e1a64d63-95b9-508d-994f-43dad7dbbce7 -E android_sparse,hash_seed=670a2316-206b-5f46-81fd-1d8f6c091809 -t ext4 -b 4096 /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img 844800
+05:42:10 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+05:42:10 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/Flamefusion/havoc/out/soong/.temp/merged_fs_config3l8cRk.txt -B /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.map -S /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/file_contexts.bin -f /home/Flamefusion/havoc/out/soong/.temp/tmpo5eO91 -a / /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img
+05:42:14 mkuserimg_mke2fs.py ERROR: Failed to run e2fsdroid_cmd: set_selinux_xattr: No such file or directory searching for label "/dsp"
+e2fsdroid: No such file or directory while configuring the file system
+loaded 3721 fs_config entries
+
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 844800 4k blocks and 211328 inodes
+Filesystem UUID: e1a64d63-95b9-508d-994f-43dad7dbbce7
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200
+
+Allocating group tables:  0/26     done                            
+Writing inode tables:  0/26     done                            
+Writing superblocks and filesystem accounting information:  0/26     done
+
+
+set_selinux_xattr: No such file or directory searching for label "/dsp"
+e2fsdroid: No such file or directory while configuring the file system
+loaded 3721 fs_config entries
+2020-05-08 05:42:14 - add_img_to_target_files - ERROR   : 
+   ERROR:
+Traceback (most recent call last):
+  File "build/make/tools/releasetools/add_img_to_target_files", line 948, in <module>
+    main(sys.argv[1:])
+  File "build/make/tools/releasetools/add_img_to_target_files", line 942, in main
+    AddImagesToTargetFiles(args[0])
+  File "build/make/tools/releasetools/add_img_to_target_files", line 808, in AddImagesToTargetFiles
+    output_zip, recovery_img=recovery_image, boot_img=boot_image)
+  File "build/make/tools/releasetools/add_img_to_target_files", line 165, in AddSystem
+    block_list=block_list)
+  File "build/make/tools/releasetools/add_img_to_target_files", line 322, in CreateImage
+    os.path.join(input_dir, what.upper()), image_props, output_file.name)
+  File "/home/Flamefusion/havoc/build/make/tools/releasetools/build_image.py", line 477, in BuildImage
+    mkfs_output = BuildImageMkfs(in_dir, prop_dict, out_file, target_out, fs_config)
+  File "/home/Flamefusion/havoc/build/make/tools/releasetools/build_image.py", line 334, in BuildImageMkfs
+    mkfs_output = common.RunAndCheckOutput(build_command)
+  File "/home/Flamefusion/havoc/build/make/tools/releasetools/common.py", line 258, in RunAndCheckOutput
+    args, proc.returncode, output))
+ExternalError: Failed to run command '['mkuserimg_mke2fs', '-s', '/home/Flamefusion/havoc/out/soong/.temp/tmpo5eO91', '/home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img', 'ext4', '/', '3460300800', '-j', '0', '-T', '1230768000', '-C', '/home/Flamefusion/havoc/out/soong/.temp/merged_fs_config3l8cRk.txt', '-B', '/home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.map', '-L', '/', '-M', '0', '-U', 'e1a64d63-95b9-508d-994f-43dad7dbbce7', '-S', '670a2316-206b-5f46-81fd-1d8f6c091809', '--inode_size', '256', '/home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/file_contexts.bin']' (exit code 4):
+05:42:10 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000', 'MKE2FS_CONFIG': '/home/Flamefusion/havoc/out/soong/.temp/tmpoYW2s8'}
+05:42:10 mkuserimg_mke2fs.py INFO: Running: mke2fs -O ^has_journal -L / -I 256 -M / -m 0 -U e1a64d63-95b9-508d-994f-43dad7dbbce7 -E android_sparse,hash_seed=670a2316-206b-5f46-81fd-1d8f6c091809 -t ext4 -b 4096 /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img 844800
+05:42:10 mkuserimg_mke2fs.py INFO: Env: {'E2FSPROGS_FAKE_TIME': '1230768000'}
+05:42:10 mkuserimg_mke2fs.py INFO: Running: e2fsdroid -T 1230768000 -C /home/Flamefusion/havoc/out/soong/.temp/merged_fs_config3l8cRk.txt -B /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.map -S /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/META/file_contexts.bin -f /home/Flamefusion/havoc/out/soong/.temp/tmpo5eO91 -a / /home/Flamefusion/havoc/out/target/product/X00P/obj/PACKAGING/target_files_intermediates/havoc_X00P-target_files-eng.Flamefusion/IMAGES/system.img
+05:42:14 mkuserimg_mke2fs.py ERROR: Failed to run e2fsdroid_cmd: set_selinux_xattr: No such file or directory searching for label "/dsp"
+e2fsdroid: No such file or directory while configuring the file system
+loaded 3721 fs_config entries
+
+mke2fs 1.44.4 (18-Aug-2018)
+Creating filesystem with 844800 4k blocks and 211328 inodes
+Filesystem UUID: e1a64d63-95b9-508d-994f-43dad7dbbce7
+Superblock backups stored on blocks: 
+	32768, 98304, 163840, 229376, 294912, 819200
+
+Allocating group tables:  0/26     done                            
+Writing inode tables:  0/26     done                            
+Writing superblocks and filesystem accounting information:  0/26     done
+
+
+set_selinux_xattr: No such file or directory searching for label "/dsp"
+e2fsdroid: No such file or directory while configuring the file system
+loaded 3721 fs_config entries
+
+
+Out of space? Out of inodes? The tree size of /home/Flamefusion/havoc/out/soong/.temp/tmpo5eO91 is 1283784704 bytes (1224 MB), with reserved space of 0 bytes (0 MB).
+The max image size for filesystem files is 3460300800 bytes (3300 MB), out of a total partition size of 3460300800 bytes (3300 MB).
+ninja: build stopped: subcommand failed.
+05:42:20 ninja failed with: exit status 1
+
+[0;31m#### failed to build some targets (10:38 (mm:ss)) ####[00m
+
