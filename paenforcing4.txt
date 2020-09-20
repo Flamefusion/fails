@@ -1,0 +1,697 @@
+--------- beginning of main
+01-04 22:04:40.870   399   399 W auditd  : type=2000 audit(0.0:1): initialized
+01-04 22:04:42.963   399   399 I auditd  : type=1403 audit(0.0:2): policy loaded auid=4294967295 ses=4294967295
+01-04 22:04:42.963   399   399 W auditd  : type=1404 audit(0.0:3): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+01-04 22:04:45.443   402   402 I SELinux : SELinux: Loaded service_contexts from:
+01-04 22:04:45.443   402   402 I SELinux :     /vendor/etc/selinux/vndservice_contexts
+01-04 22:04:45.446   400   400 I SELinux : SELinux: Loaded service_contexts from:
+01-04 22:04:45.449   400   400 I SELinux :     /system/etc/selinux/plat_service_contexts
+01-04 22:04:45.460   404   404 W vold    : type=1400 audit(0.0:4): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+--------- beginning of crash
+01-04 22:04:45.463   404   404 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:04:45.470   401   401 I hwservicemanager: hwservicemanager is ready now.
+01-04 22:05:36.283   424   424 W vold    : type=1400 audit(0.0:5): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:05:36.286   424   424 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:05:36.376   429   429 W vold    : type=1400 audit(0.0:6): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:05:36.381   429   429 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:05:36.407   426   426 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:05:36.408   401   401 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:05:36.409   428   428 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:05:36.412   427   427 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:05:36.450   426   426 D vndksupport: Loading /vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so from current namespace instead of sphal namespace.
+01-04 22:05:36.451   428   428 I ServiceManagement: Registered vendor.qti.hardware.cryptfshw@1.0::ICryptfsHw/default (start delay of 83ms)
+01-04 22:05:36.451   428   428 I ServiceManagement: Removing namespace from process name vendor.qti.hardware.cryptfshw@1.0-service-qti.qsee to cryptfshw@1.0-service-qti.qsee.
+01-04 22:05:36.451   427   427 D vndksupport: Loading /vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so from current namespace instead of sphal namespace.
+01-04 22:06:27.106   433   433 W vold    : type=1400 audit(0.0:7): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:06:27.108   433   433 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:06:27.184   435   435 E fsverity_init: Failed to load /product/etc/security/fsverity/*.der
+01-04 22:06:27.197   436   436 E /system/bin/mini-keyctl: Failed to open /proc/keys: No such file or directory
+01-04 22:06:27.197   436   436 E /system/bin/mini-keyctl: Cannot find keyring id
+01-04 22:06:27.212   437   437 E fsverity_init: Failed to restrict .fs-verity keyring
+01-04 22:06:27.248   438   438 I ServiceManager: Waiting for service 'vold' on '/dev/binder'...
+01-04 22:06:32.056   438   438 I chatty  : uid=0(root) /system/bin/apexd identical 48 lines
+01-04 22:06:32.156   438   438 I ServiceManager: Waiting for service 'vold' on '/dev/binder'...
+01-04 22:06:32.256   438   438 W ServiceManager: Service vold didn't start. Returning NULL
+01-04 22:06:32.256   438   438 E apexd   : Could not retrieve vold service: Failed to retrieve vold service.
+01-04 22:06:32.256   438   438 I apexd   : Marking APEXd as starting
+01-04 22:06:32.257   438   438 I apexd   : Scanning /system/apex for embedded keys
+01-04 22:06:32.259   438   438 I apexd   : Scanning /product/apex for embedded keys
+01-04 22:06:32.259   438   438 I apexd   : ... does not exist. Skipping
+01-04 22:06:32.259   438   438 I apexd   : Populating APEX database from mounts...
+01-04 22:06:32.260   438   438 E apexd   : Failed to walk /product/apex : Can't open /product/apex for reading : No such file or directory
+01-04 22:06:32.260   438   438 I apexd   : Found "/apex/com.android.tzdata@290000000"
+01-04 22:06:32.260   438   438 I apexd   : Found "/apex/com.android.runtime@1"
+01-04 22:06:32.261   438   438 I apexd   : 2 packages restored.
+01-04 22:06:32.261   438   438 I apexd   : Scanning /data/apex/sessions looking for sessions to be activated.
+01-04 22:06:32.261   438   438 I apexd   : Scanning /data/apex/active looking for APEX packages.
+01-04 22:06:32.261   438   438 I apexd   : Activated 0 packages. Skipped: 0
+01-04 22:06:32.262   438   438 I apexd   : Scanning /system/apex looking for APEX packages.
+01-04 22:06:32.262   438   438 I apexd   : Found /system/apex/com.android.conscrypt
+01-04 22:06:32.262   438   438 V apexd   : Creating mount point: /apex/com.android.conscrypt@290000000
+01-04 22:06:32.263   438   438 I apexd   : Successfully bind-mounted flattened package /system/apex/com.android.conscrypt on /apex/com.android.conscrypt@290000000
+01-04 22:06:32.263   438   438 V apexd   : Creating bind-mount for /apex/com.android.conscrypt for /apex/com.android.conscrypt@290000000
+01-04 22:06:32.263   438   438 V apexd   : Creating mountpoint /apex/com.android.conscrypt
+01-04 22:06:32.263   438   438 V apexd   : Bind-mounting /apex/com.android.conscrypt@290000000 to /apex/com.android.conscrypt
+01-04 22:06:32.263   438   438 D apexd   : Successfully activated /system/apex/com.android.conscrypt package_name: com.android.conscrypt version: 290000000
+01-04 22:06:32.263   438   438 I apexd   : Found /system/apex/com.android.tzdata
+01-04 22:06:32.263   438   438 I apexd   : Skipping activation of /system/apex/com.android.tzdata same package with higher version 290000000 is already active
+01-04 22:06:32.263   438   438 I apexd   : Found /system/apex/com.android.media
+01-04 22:06:32.264   438   438 V apexd   : Creating mount point: /apex/com.android.media@290000000
+01-04 22:06:32.264   438   438 I apexd   : Successfully bind-mounted flattened package /system/apex/com.android.media on /apex/com.android.media@290000000
+01-04 22:06:32.264   438   438 V apexd   : Creating bind-mount for /apex/com.android.media for /apex/com.android.media@290000000
+01-04 22:06:32.264   438   438 V apexd   : Creating mountpoint /apex/com.android.media
+01-04 22:06:32.264   438   438 V apexd   : Bind-mounting /apex/com.android.media@290000000 to /apex/com.android.media
+01-04 22:06:32.264   438   438 D apexd   : Successfully activated /system/apex/com.android.media package_name: com.android.media version: 290000000
+01-04 22:06:32.264   438   438 I apexd   : Found /system/apex/com.android.resolv
+01-04 22:06:32.264   438   438 V apexd   : Creating mount point: /apex/com.android.resolv@290000000
+01-04 22:06:32.265   438   438 I apexd   : Successfully bind-mounted flattened package /system/apex/com.android.resolv on /apex/com.android.resolv@290000000
+01-04 22:06:32.265   438   438 V apexd   : Creating bind-mount for /apex/com.android.resolv for /apex/com.android.resolv@290000000
+01-04 22:06:32.265   438   438 V apexd   : Creating mountpoint /apex/com.android.resolv
+01-04 22:06:32.265   438   438 V apexd   : Bind-mounting /apex/com.android.resolv@290000000 to /apex/com.android.resolv
+01-04 22:06:32.265   438   438 D apexd   : Successfully activated /system/apex/com.android.resolv package_name: com.android.resolv version: 290000000
+01-04 22:06:32.265   438   438 I apexd   : Found /system/apex/com.android.runtime.debug
+01-04 22:06:32.265   438   438 I apexd   : Skipping activation of /system/apex/com.android.runtime.debug same package with higher version 1 is already active
+01-04 22:06:32.265   438   438 I apexd   : Found /system/apex/com.android.media.swcodec
+01-04 22:06:32.266   438   438 V apexd   : Creating mount point: /apex/com.android.media.swcodec@290000000
+01-04 22:06:32.266   438   438 I apexd   : Successfully bind-mounted flattened package /system/apex/com.android.media.swcodec on /apex/com.android.media.swcodec@290000000
+01-04 22:06:32.266   438   438 V apexd   : Creating bind-mount for /apex/com.android.media.swcodec for /apex/com.android.media.swcodec@290000000
+01-04 22:06:32.266   438   438 V apexd   : Creating mountpoint /apex/com.android.media.swcodec
+01-04 22:06:32.266   438   438 V apexd   : Bind-mounting /apex/com.android.media.swcodec@290000000 to /apex/com.android.media.swcodec
+01-04 22:06:32.266   438   438 D apexd   : Successfully activated /system/apex/com.android.media.swcodec package_name: com.android.media.swcodec version: 290000000
+01-04 22:06:32.266   438   438 I apexd   : Activated 4 packages. Skipped: 2
+01-04 22:06:32.266   438   438 I apexd   : Scanning /product/apex looking for APEX packages.
+01-04 22:06:32.266   438   438 E apexd   : Failed to activate packages from /product/apex : Failed to scan /product/apex : Can't open /product/apex for reading : No such file or directory
+01-04 22:06:32.268   438   438 I apexd   : Marking APEXd as ready
+01-04 22:06:32.340   441   441 W vold    : type=1400 audit(0.0:8): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:06:32.342   441   441 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:06:32.343   438   438 I apexd   : Updatable crashing, attempting rollback
+01-04 22:06:32.343   438   438 E apexd   : Rollback failed : Rollback requested, when there are no active sessions.
+01-04 22:07:23.103   443   443 W vold    : type=1400 audit(0.0:9): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:07:23.107   443   443 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:07:23.154   444   444 I /system/bin/tzdatacheck: timezone distro dir /data/misc/zoneinfo/current does not exist. No action required.
+01-04 22:07:23.211   446   446 I art_apex: === ART pre-boot integrity checks ===
+01-04 22:07:23.242   448   448 F art_apex: Device is not fsverity-enabled.
+01-04 22:07:23.293   450   450 E /system/bin/recovery-persist: Failed to unlink /cache/recovery/last_install: No such file or directory
+01-04 22:07:23.300   452   452 I /system/bin/flags_health_check: ServerConfigurableFlagsReset reset_mode value: 0
+01-04 22:07:23.300   452   452 I /system/bin/flags_health_check: ServerConfigurableFlagsReset attempted boot count is under threshold, skipping reset.
+01-04 22:07:23.313   455   455 W ueventd : type=1400 audit(0.0:10): avc: denied { getattr } for path="/vendor/firmware_mnt/image/adsp.mdt" dev="mmcblk0p1" ino=4 scontext=u:r:ueventd:s0 tcontext=u:object_r:vfat:s0 tclass=file permissive=0
+01-04 22:07:23.331   453   453 I bootstat: Service started: /system/bin/bootstat --set_system_boot_reason 
+01-04 22:07:23.331   453   453 I bootstat: Canonical boot reason: reboot
+01-04 22:07:23.331   453   453 I bootstat: Canonical boot reason: reboot
+01-04 22:07:23.406   460   460 I BOOT    : MSM target '', SoC 'MTP', HwID '294', SoC ver '65536'
+01-04 22:07:23.421   461   461 W DRM_BOOT: file: '/sys/module/drm/parameters/vblankoffdelay' or perms doesn't exist
+01-04 22:07:23.821   490   490 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.824   490   490 D vndksupport: Loading /vendor/lib64/hw/android.hardware.drm@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.850   510   510 I vendor.rmt_storage: Modem subsystem found on target!
+01-04 22:07:23.851   510   510 I vendor.rmt_storage: Shared memory initialised successfully.
+01-04 22:07:23.851   510   510 I vendor.rmt_storage: Registering modemst1: 0x4a /boot/modem_fs1
+01-04 22:07:23.851   510   510 I vendor.rmt_storage: Registering modemst2: 0x4b /boot/modem_fs2
+01-04 22:07:23.852   510   510 I vendor.rmt_storage: Registering fsc: 0xff /boot/modem_fsc
+01-04 22:07:23.852   510   510 I vendor.rmt_storage: Registering fsg: 0x58 /boot/modem_fsg
+01-04 22:07:23.852   510   510 I vendor.rmt_storage: 4 GPT partitions found
+01-04 22:07:23.852   510   510 I vendor.rmt_storage: Capset success!
+01-04 22:07:23.853   520   520 W vold    : type=1400 audit(0.0:11): avc: denied { getattr } for path="/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so" dev="mmcblk0p25" ino=3012 scontext=u:r:vold:s0 tcontext=u:object_r:vendor_file:s0 tclass=file permissive=0
+01-04 22:07:23.856   520   520 F linker  : CANNOT LINK EXECUTABLE "/system/bin/vold": unable to stat file for the library "vendor.qti.hardware.cryptfshw@1.0.so": Permission denied
+01-04 22:07:23.868   491   491 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.876   491   491 I ServiceManagement: Registered android.hardware.drm@1.2::IDrmFactory/clearkey (start delay of 108ms)
+01-04 22:07:23.880   491   491 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.2-service.clearkey to drm@1.2-service.clearkey.
+01-04 22:07:23.885   491   491 I ServiceManagement: Registered android.hardware.drm@1.2::ICryptoFactory/clearkey (start delay of 117ms)
+01-04 22:07:23.885   491   491 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.2-service.clearkey to drm@1.2-service.clearkey.
+01-04 22:07:23.886   502   502 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.892   498   498 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.900   498   498 D vndksupport: Loading /vendor/lib64/hw/android.hardware.memtrack@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.901   502   502 I ServiceManagement: Registered android.hardware.usb@1.0::IUsb/default (start delay of 113ms)
+01-04 22:07:23.901   502   502 I ServiceManagement: Removing namespace from process name android.hardware.usb@1.0-service.basic to usb@1.0-service.basic.
+01-04 22:07:23.902   502   502 I /vendor/bin/hw/android.hardware.usb@1.0-service.basic: USB HAL Ready.
+01-04 22:07:23.904   490   490 I ServiceManagement: Registered android.hardware.drm@1.0::IDrmFactory/default (start delay of 146ms)
+01-04 22:07:23.904   490   490 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.0-service to drm@1.0-service.
+01-04 22:07:23.905   490   490 I         : Registration complete for android.hardware.drm@1.0::IDrmFactory/default.
+01-04 22:07:23.907   490   490 D vndksupport: Loading /vendor/lib64/hw/android.hardware.drm@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.910   501   501 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.911   498   498 D vndksupport: Loading /vendor/lib64/hw/memtrack.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:23.912   511   511 I tftp_server: Initializing tftp_server RING buffer
+01-04 22:07:23.912   511   511 I tftp_server: Starting...
+01-04 22:07:23.913   490   490 I ServiceManagement: Registered android.hardware.drm@1.0::ICryptoFactory/default (start delay of 155ms)
+01-04 22:07:23.914   490   490 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.0-service to drm@1.0-service.
+01-04 22:07:23.914   501   501 D vndksupport: Loading /vendor/lib64/hw/android.hardware.thermal@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.914   490   490 I         : Registration complete for android.hardware.drm@1.0::ICryptoFactory/default.
+--------- beginning of system
+01-04 22:07:23.917   509   509 I irsc_util: Starting irsc tool
+01-04 22:07:23.921   498   498 I ServiceManagement: Registered android.hardware.memtrack@1.0::IMemtrack/default (start delay of 143ms)
+01-04 22:07:23.921   498   498 I ServiceManagement: Removing namespace from process name android.hardware.memtrack@1.0-service to memtrack@1.0-service.
+01-04 22:07:23.921   498   498 I android.hardware.memtrack@1.0-service: Registration complete for android.hardware.memtrack@1.0::IMemtrack/default.
+01-04 22:07:23.925   509   509 I irsc_util: Num of entries:296
+01-04 22:07:23.926   500   500 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.930   500   500 D vndksupport: Loading /vendor/lib64/hw/android.hardware.sensors@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.932   492   492 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.932   507   507 D         : QdutilsDisp: svc service starting :)
+01-04 22:07:23.932   509   509 I irsc_util: Ending irsc tool
+01-04 22:07:23.932   507   507 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.936   508   508 D         : tui_comm: svc service starting :)
+01-04 22:07:23.937   508   508 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.939   503   503 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.943   496   496 I health@2.0/: health@2.0/default: Hal starting main loop...
+01-04 22:07:23.943   496   496 I health@2.0/: health@2.0/default Hal is starting up...
+01-04 22:07:23.943   501   501 E android.hardware.thermal@1.0-impl: Couldn't load thermal module (No such file or directory)
+01-04 22:07:23.945   492   492 I ServiceManagement: Registered android.hardware.drm@1.2::IDrmFactory/widevine (start delay of 177ms)
+01-04 22:07:23.945   492   492 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.2-service.widevine to drm@1.2-service.widevine.
+01-04 22:07:23.946   496   496 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.947   507   507 I ServiceManagement: Registered vendor.qti.hardware.qdutils_disp@1.0::IQdutilsDisp/default (start delay of 149ms)
+01-04 22:07:23.947   507   507 I ServiceManagement: Removing namespace from process name vendor.qti.hardware.qdutils_disp@1.0-service-qti to qdutils_disp@1.0-service-qti.
+01-04 22:07:23.947   507   507 E         : Registered IQdutilsDisp HAL service success!
+01-04 22:07:23.948   483   483 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.955   495   495 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.955   494   494 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.955   482   482 I Dpps    : GetInstance: DppsServer ref count increased to 1
+01-04 22:07:23.955   482   482 I Dpps    : WaitForComposer():129 Waiting for composer service init
+01-04 22:07:23.956   482   482 I ServiceManager: Waiting for service 'display.qservice' on '/dev/vndbinder'...
+01-04 22:07:23.958   497   497 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.960   518   518 W lmkd    : type=1400 audit(0.0:12): avc: denied { execute } for path="/vendor/lib64/vendor.qti.hardware.perf@2.0.so" dev="mmcblk0p25" ino=3026 scontext=u:r:lmkd:s0 tcontext=u:object_r:same_process_hal_file:s0 tclass=file permissive=0
+01-04 22:07:23.962   508   508 I ServiceManagement: Registered vendor.qti.hardware.tui_comm@1.0::ITuiComm/default (start delay of 154ms)
+01-04 22:07:23.962   508   508 I ServiceManagement: Removing namespace from process name vendor.qti.hardware.tui_comm@1.0-service-qti to tui_comm@1.0-service-qti.
+01-04 22:07:23.963   508   508 E         : Registered ITuiComm HAL service success!
+01-04 22:07:23.963   518   518 E lowmemorykiller: Couldn't get perf_wait_get_prop function handle.
+01-04 22:07:23.963   499   499 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.963   518   518 I lowmemorykiller: Using in-kernel low memory killer interface
+01-04 22:07:23.964   503   503 D vndksupport: Loading /vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.966   484   484 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.966   492   492 I ServiceManagement: Registered android.hardware.drm@1.2::ICryptoFactory/widevine (start delay of 198ms)
+01-04 22:07:23.966   492   492 I ServiceManagement: Removing namespace from process name android.hardware.drm@1.2-service.widevine to drm@1.2-service.widevine.
+01-04 22:07:23.967   496   496 I ServiceManagement: Registered android.hardware.health@2.0::IHealth/default (start delay of 189ms)
+01-04 22:07:23.968   514   514 I PerMgrSrv: Adding entry for modem : offTimeout : 500 ackTimeout : 200
+01-04 22:07:23.968   496   496 I ServiceManagement: Removing namespace from process name android.hardware.health@2.0-service to health@2.0-service.
+01-04 22:07:23.968   496   496 I health@2.0/: health@2.0/default: Hal init done
+01-04 22:07:23.969   483   483 I ServiceManagement: Registered android.hidl.allocator@1.0::IAllocator/ashmem (start delay of 221ms)
+01-04 22:07:23.970   483   483 I ServiceManagement: Removing namespace from process name android.hidl.allocator@1.0-service to allocator@1.0-service.
+01-04 22:07:23.971   495   495 D vndksupport: Loading /vendor/lib64/hw/android.hardware.graphics.composer@2.1-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.973   494   494 D vndksupport: Loading /vendor/lib64/hw/android.hardware.graphics.allocator@2.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.973   503   503 D vndksupport: Loading /vendor/lib64/hw/vibrator.default.so from current namespace instead of sphal namespace.
+01-04 22:07:23.975   497   497 I ServiceManagement: Registered android.hardware.light@2.0::ILight/default (start delay of 197ms)
+01-04 22:07:23.975   514   514 I PerMgrSrv: Peripheral Mananager service start
+01-04 22:07:23.975   514   514 I PerMgrSrv: power-off timeout 500,ms; event-ack timeout 200,ms; debug-mode false
+01-04 22:07:23.975   514   514 I PerMgrSrv: Statistics for : modem
+01-04 22:07:23.975   514   514 I PerMgrSrv: modem: Current State : is off-line
+01-04 22:07:23.975   514   514 I PerMgrSrv: modem: Voter/Listener count : 0/0
+01-04 22:07:23.975   514   514 I PerMgrSrv: modem: Power on count : 0
+01-04 22:07:23.975   514   514 I PerMgrSrv: modem: Power off count: 0
+01-04 22:07:23.976   514   514 I PerMgrSrv: modem: Client list:
+01-04 22:07:23.976   497   497 I ServiceManagement: Removing namespace from process name android.hardware.light@2.0-service.asus_X00P to light@2.0-service.asus_X00P.
+01-04 22:07:23.976   505   505 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.976   497   497 I android.hardware.light@2.0-service.asus_X00P: Light HAL service ready.
+01-04 22:07:23.977   499   499 D vndksupport: Loading /vendor/lib64/hw/android.hardware.power@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:23.978   501   501 I ServiceManagement: Registered android.hardware.thermal@1.0::IThermal/default (start delay of 190ms)
+01-04 22:07:23.978   501   501 I ServiceManagement: Removing namespace from process name android.hardware.thermal@1.0-service to thermal@1.0-service.
+01-04 22:07:23.978   501   501 I android.hardware.thermal@1.0-service: Registration complete for android.hardware.thermal@1.0::IThermal/default.
+01-04 22:07:23.979   503   503 D         : Vibrator using timed_output
+01-04 22:07:23.979   484   484 I ServiceManagement: Registered android.system.suspend@1.0::ISystemSuspend/default (start delay of 231ms)
+01-04 22:07:23.980   484   484 I ServiceManagement: Removing namespace from process name android.system.suspend@1.0-service to suspend@1.0-service.
+01-04 22:07:23.980   505   505 I ServiceManagement: Registered vendor.display.color@1.0::IDisplayColor/default (start delay of 183ms)
+01-04 22:07:23.981   505   505 I ServiceManagement: Removing namespace from process name vendor.display.color@1.0-service to color@1.0-service.
+01-04 22:07:23.982   503   503 I ServiceManagement: Registered android.hardware.vibrator@1.0::IVibrator/default (start delay of 195ms)
+01-04 22:07:23.983   503   503 I ServiceManagement: Removing namespace from process name android.hardware.vibrator@1.0-service to vibrator@1.0-service.
+01-04 22:07:23.983   503   503 I android.hardware.vibrator@1.0-service: Registration complete for android.hardware.vibrator@1.0::IVibrator/default.
+01-04 22:07:23.984   505   505 I ServiceManagement: Registered vendor.display.postproc@1.0::IDisplayPostproc/default (start delay of 186ms)
+01-04 22:07:23.984   486   486 I android.hardware.bluetooth@1.0-service: vendorEnhancedInfo: 3
+01-04 22:07:23.984   486   486 I android.hardware.bluetooth@1.0-service: isVendorEnhancedFramework: 1
+01-04 22:07:23.984   486   486 I android.hardware.bluetooth@1.0-service: Registering BT Service
+01-04 22:07:23.984   486   486 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.985   514   534 I PerMgrSrv: QMI service start
+01-04 22:07:23.986   486   486 D vndksupport: Loading /vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so from current namespace instead of sphal namespace.
+01-04 22:07:23.986   494   494 D vndksupport: Loading /vendor/lib64/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:23.989   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: allowing syscall: connect
+01-04 22:07:23.989   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: allowing syscall: fcntl
+01-04 22:07:23.989   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: allowing syscall: sendto
+01-04 22:07:23.989   499   499 D vndksupport: Loading /vendor/lib64/hw/power.qcom.so from current namespace instead of sphal namespace.
+01-04 22:07:23.989   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: allowing syscall: socket
+01-04 22:07:23.989   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: allowing syscall: writev
+01-04 22:07:23.994   489   489 W /vendor/bin/hw/android.hardware.configstore@1.1-service: libminijail[489]: logging seccomp filter failures
+01-04 22:07:23.995   489   489 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:23.998   489   489 I ServiceManagement: Registered android.hardware.configstore@1.1::ISurfaceFlingerConfigs/default (start delay of 240ms)
+01-04 22:07:23.998   489   489 I ServiceManagement: Removing namespace from process name android.hardware.configstore@1.1-service to configstore@1.1-service.
+01-04 22:07:24.009   513   513 D QSEECOMD: : qseecom listener services process entry PPID = 1
+01-04 22:07:24.009   513   513 E QSEECOMD: : Listener: index = 0, hierarchy = 0
+01-04 22:07:24.016   486   486 I ServiceManagement: Registered android.hardware.bluetooth@1.0::IBluetoothHci/default (start delay of 268ms)
+01-04 22:07:24.016   486   486 I ServiceManagement: Removing namespace from process name android.hardware.bluetooth@1.0-service-qti to bluetooth@1.0-service-qti.
+01-04 22:07:24.016   486   486 I         : Registration complete for android.hardware.bluetooth@1.0::IBluetoothHci/default.
+01-04 22:07:24.017   486   486 D vndksupport: Loading /vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.018   500   500 E libsensor1: check_sensors_enabled: Sensors enabled = true
+01-04 22:07:24.022   513   513 D QSEECOMD: : Init dlopen(librpmb.so, RTLD_NOW) succeeds
+01-04 22:07:24.022   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle rpmb_init_service) succeeds
+01-04 22:07:24.022   513   513 I rpmb_emmc: RPMB Mult (512-bytes sector) = 8192, Rel_sec_cnt = 32
+01-04 22:07:24.023   513   513 E DrmLibRpmb: rpmb_init succeeded! with ret = 0
+01-04 22:07:24.023   513   513 D QSEECOMD: : Init rpmb_init_service ret = 0
+01-04 22:07:24.023   513   513 D QSEECOMD: : RPMB system services: init (Listener ID = 8192)
+01-04 22:07:24.023   513   513 E QSEECOMD: : Listener: index = 1, hierarchy = 0
+01-04 22:07:24.024   488   488 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.026   487   487 I android.hardware.camera.provider@2.4-service: CameraProvider@2.4 legacy service is starting.
+01-04 22:07:24.026   487   487 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.027   486   486 E vendor.qti.hardware.bluetooth_sar@1.0-BluetoothSar: HIDL_FETCH_IBluetoothSar
+01-04 22:07:24.028   499   499 I QTI PowerHAL: Initing
+01-04 22:07:24.028   513   513 D QSEECOMD: : Init dlopen(libssd.so, RTLD_NOW) succeeds
+01-04 22:07:24.028   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle ssd_init_service) succeeds
+01-04 22:07:24.028   513   513 E SSD     : ssd_init_service succeeded!
+01-04 22:07:24.028   513   513 D QSEECOMD: : Init ssd_init_service ret = 0
+01-04 22:07:24.028   513   513 D QSEECOMD: : SSD system services: init (Listener ID = 12288)
+01-04 22:07:24.028   513   513 E QSEECOMD: : Listener: index = 2, hierarchy = 0
+01-04 22:07:24.030   486   486 I ServiceManagement: Registered vendor.qti.hardware.bluetooth_sar@1.0::IBluetoothSar/default (start delay of 282ms)
+01-04 22:07:24.030   486   486 I         : Registration complete for vendor.qti.hardware.bluetooth_sar@1.0::IBluetoothSar/default.
+01-04 22:07:24.030   486   486 I android.hardware.bluetooth@1.0-service: Registering BT Config store Service
+01-04 22:07:24.031   499   499 I ServiceManagement: Registered android.hardware.power@1.0::IPower/default (start delay of 254ms)
+01-04 22:07:24.032   499   499 I ServiceManagement: Removing namespace from process name android.hardware.power@1.0-service to power@1.0-service.
+01-04 22:07:24.032   499   499 I android.hardware.power@1.0-service: Registration complete for android.hardware.power@1.0::IPower/default.
+01-04 22:07:24.032   494   494 I ServiceManagement: Registered android.hardware.graphics.allocator@2.0::IAllocator/default (start delay of 265ms)
+01-04 22:07:24.033   494   494 I ServiceManagement: Removing namespace from process name android.hardware.graphics.allocator@2.0-service to allocator@2.0-service.
+01-04 22:07:24.033   494   494 I android.hardware.graphics.allocator@2.0-service: Registration complete for android.hardware.graphics.allocator@2.0::IAllocator/default.
+01-04 22:07:24.034   486   486 D vndksupport: Loading /vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.034   488   488 I ServiceManagement: Registered android.hardware.cas@1.1::IMediaCasService/default (start delay of 276ms)
+01-04 22:07:24.035   488   488 I ServiceManagement: Removing namespace from process name android.hardware.cas@1.1-service to cas@1.1-service.
+01-04 22:07:24.038   487   487 D vndksupport: Loading /vendor/lib/hw/android.hardware.camera.provider@2.4-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.041   495   495 D vndksupport: Loading /vendor/lib64/hw/hwcomposer.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.047   504   504 I android.hardware.wifi@1.0-service: Wifi Hal is booting up...
+01-04 22:07:24.048   504   504 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.051   493   493 I android.hardware.gnss@2.0-service-qti: main
+01-04 22:07:24.052   493   493 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.053   506   506 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.055   512   532 E Sensors : sns_reg_la.c(368):wind-log int_flag = 1
+01-04 22:07:24.056   512   532 E Sensors : sns_reg_la.c(372):wind-log accel_gyro use polling mode
+01-04 22:07:24.056   512   532 E Sensors : sns_reg_la.c(380):wind-log write accel polling mode
+01-04 22:07:24.056   512   532 E Sensors : sns_reg_la.c(395):wind-log write gyro polling mode
+01-04 22:07:24.056   482   482 I ServiceManager: Waiting for service 'display.qservice' on '/dev/vndbinder'...
+01-04 22:07:24.061   504   504 I ServiceManagement: Registered android.hardware.wifi@1.3::IWifi/default (start delay of 263ms)
+01-04 22:07:24.061   504   504 I ServiceManagement: Removing namespace from process name android.hardware.wifi@1.0-service to wifi@1.0-service.
+01-04 22:07:24.065   513   513 D QSEECOMD: : Init dlopen(libsecureui.so, RTLD_NOW) succeeds
+01-04 22:07:24.065   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle secure_ui_init) succeeds
+01-04 22:07:24.065   513   513 D QSEECOMD: : Init secure_ui_init ret = 0
+01-04 22:07:24.065   513   513 D QSEECOMD: : secure UI services: init (Listener ID = 16384)
+01-04 22:07:24.066   513   513 D QSEECOMD: : qseecom listener service threads starting!!! 
+01-04 22:07:24.066   513   513 D QSEECOMD: : Total listener services to start = 10
+01-04 22:07:24.066   513   513 E QSEECOMD: : Listener: index = 0, hierarchy = 1
+01-04 22:07:24.066   513   513 D QSEECOMD: : Init dlopen(librpmb.so, RTLD_NOW) succeeds
+01-04 22:07:24.066   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle rpmb_start) succeeds
+01-04 22:07:24.066   513   513 D QSEECOMAPI: QSEECom_register_listener 8192 sb_length = 0x6400
+01-04 22:07:24.066   506   506 I ServiceManagement: Registered vendor.qti.hardware.perf@2.1::IPerf/default (start delay of 268ms)
+01-04 22:07:24.066   506   506 I ServiceManagement: Removing namespace from process name vendor.qti.hardware.perf@2.1-service to perf@2.1-service.
+01-04 22:07:24.067   486   486 I ServiceManagement: Registered vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore/default (start delay of 319ms)
+01-04 22:07:24.067   493   493 D vndksupport: Loading /vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so from current namespace instead of sphal namespace.
+01-04 22:07:24.067   506   506 E vendor.qti.hardware.perf@2.1-service: Registered IPerf HAL service success!
+01-04 22:07:24.067   486   486 I         : Registration complete for vendor.qti.hardware.btconfigstore@1.0::IBTConfigStore/default.
+01-04 22:07:24.071   513   513 D QSEECOMD: : Init rpmb_start ret = 0
+01-04 22:07:24.071   513   513 D QSEECOMD: : RPMB system services: Started (Listener ID = 8192)
+01-04 22:07:24.071   513   513 E QSEECOMD: : Listener: index = 1, hierarchy = 1
+01-04 22:07:24.072   513   513 D QSEECOMD: : Init dlopen(libssd.so, RTLD_NOW) succeeds
+01-04 22:07:24.072   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle ssd_start) succeeds
+01-04 22:07:24.072   513   513 D QSEECOMAPI: QSEECom_register_listener 12288 sb_length = 0x5000
+01-04 22:07:24.078   549   549 E PerMgrProxy: Starting pm-proxy service
+01-04 22:07:24.078   513   513 D QSEECOMD: : Init ssd_start ret = 0
+01-04 22:07:24.078   513   513 D QSEECOMD: : SSD system services: Started (Listener ID = 12288)
+01-04 22:07:24.078   513   513 E QSEECOMD: : Listener: index = 2, hierarchy = 1
+01-04 22:07:24.078   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/modem] [Operation not permitted]
+01-04 22:07:24.078   513   513 D QSEECOMD: : Init dlopen(libsecureui.so, RTLD_NOW) succeeds
+01-04 22:07:24.079   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle secure_ui_start) succeeds
+01-04 22:07:24.079   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/modem/] [Operation not permitted]
+01-04 22:07:24.079   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/lpass] [Operation not permitted]
+01-04 22:07:24.079   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/lpass/] [Operation not permitted]
+01-04 22:07:24.079   513   513 D QSEECOMAPI: QSEECom_register_listener 16384 sb_length = 0x10a8
+01-04 22:07:24.079   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/slpi] [Operation not permitted]
+01-04 22:07:24.079   511   511 E tftp_server: pid=511 tid=511 tftp-server : ERR :[tftp_os_la.c, 140] chown gid failed: [1000] [1000] [1] [/data/vendor/tombstones/rfs/slpi/] [Operation not permitted]
+01-04 22:07:24.081   513   513 D QSEECOMD: : Init secure_ui_start ret = 0
+01-04 22:07:24.081   513   513 D QSEECOMD: : secure UI services: Started (Listener ID = 16384)
+01-04 22:07:24.081   513   513 E QSEECOMD: : Listener: index = 3, hierarchy = 1
+01-04 22:07:24.081   514   536 D PerMgrSrv: modem state: is off-line, add client PM-PROXY-THREAD
+01-04 22:07:24.081   514   536 D PerMgrSrv: PM-PROXY-THREAD registered
+01-04 22:07:24.082   549   549 D PerMgrLib: PM-PROXY-THREAD successfully registered for modem
+01-04 22:07:24.082   549   549 I PerMgrProxy: Casting proxy vote for modem
+01-04 22:07:24.082   549   549 D PerMgrLib: PM-PROXY-THREAD voting for modem
+01-04 22:07:24.082   514   536 D PerMgrSrv: PM-PROXY-THREAD voting for modem
+01-04 22:07:24.082   514   536 D PerMgrSrv: modem new state: going on-line
+01-04 22:07:24.082   514   536 D PerMgrSrv: modem num voters is 1
+01-04 22:07:24.082   549   549 I PerMgrProxy: pm-proxy-thread vote successful for modem
+01-04 22:07:24.084   552   552 I /system/bin/flags_health_check: ServerConfigurableFlagsReset reset_mode value: 1
+01-04 22:07:24.085   552   552 I /system/bin/flags_health_check: ServerConfigurableFlagsReset updatable crashing detected, resetting flags.
+01-04 22:07:24.086   513   513 D QSEECOMD: : Init dlopen(libdrmtime.so, RTLD_NOW) succeeds
+01-04 22:07:24.086   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle atime_start) succeeds
+01-04 22:07:24.086   513   513 D DrmLibTime: QSEE Time Listener: atime_start
+01-04 22:07:24.086   513   513 D QSEECOMAPI: QSEECom_register_listener 11 sb_length = 0x5000
+01-04 22:07:24.088   513   513 D DrmLibTime: registering fs service to QSEECom is done!
+01-04 22:07:24.088   513   513 D DrmLibTime: begin to create a thread!
+01-04 22:07:24.088   513   513 D DrmLibTime: Creating a pthread in atime_start is done! return 0
+01-04 22:07:24.088   513   513 D QSEECOMD: : Init atime_start ret = 0
+01-04 22:07:24.088   513   513 D QSEECOMD: : time services: Started (Listener ID = 11)
+01-04 22:07:24.088   513   513 E QSEECOMD: : Listener: index = 4, hierarchy = 1
+01-04 22:07:24.088   513   513 D QSEECOMD: : Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+01-04 22:07:24.088   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle fs_start) succeeds
+01-04 22:07:24.088   513   513 D QSEECOMAPI: QSEECom_register_listener 10 sb_length = 0x5000
+01-04 22:07:24.089   513   559 D DrmLibTime: QSEE Time Listener: dispatch
+01-04 22:07:24.089   513   559 D DrmLibTime: before calling ioctl to read the next time_cmd
+01-04 22:07:24.096   513   513 D QSEECOMD: : Init fs_start ret = 0
+01-04 22:07:24.096   513   513 D QSEECOMD: : file system services: Started (Listener ID = 10)
+01-04 22:07:24.096   513   513 E QSEECOMD: : Listener: index = 5, hierarchy = 1
+01-04 22:07:24.097   513   513 D QSEECOMD: : Init dlopen(libdrmfs.so, RTLD_NOW) succeeds
+01-04 22:07:24.097   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle gpfs_start) succeeds
+01-04 22:07:24.098   513   513 E DrmLibFs: Error: Invalid config file
+01-04 22:07:24.098   513   513 E DrmLibFs: Data path not parsed: Using default data path: /data/vendor/tzstorage/
+01-04 22:07:24.098   513   513 E DrmLibFs: Persist path not parsed: Using default persist path: /mnt/vendor/persist/data/
+01-04 22:07:24.098   513   513 D QSEECOMAPI: QSEECom_register_listener 28672 sb_length = 0x7e000
+01-04 22:07:24.100   561   561 W ueventd : type=1400 audit(0.0:13): avc: denied { getattr } for path="/vendor/firmware_mnt/image/modem.mdt" dev="mmcblk0p1" ino=5 scontext=u:r:ueventd:s0 tcontext=u:object_r:vfat:s0 tclass=file permissive=0
+01-04 22:07:24.103   514   536 E PerMgrSrv: power on modem failed /dev/subsys_modem: Try again
+01-04 22:07:24.104   514   536 D PerMgrSrv: modem new state: is off-line
+01-04 22:07:24.133   546   570 I adbd    : opening control endpoint /dev/usb-ffs/adb/ep0
+01-04 22:07:24.134   546   570 I adbd    : UsbFfsConnection constructed
+01-04 22:07:24.135   495   495 I ServiceManagement: Registered vendor.display.config@1.9::IDisplayConfig/default (start delay of 367ms)
+01-04 22:07:24.135   546   571 I adbd    : USB event: FUNCTIONFS_BIND
+01-04 22:07:24.135   495   495 I SDM     : HWCSession::StartServices: IDisplayConfig service registration completed.
+01-04 22:07:24.136   495   495 D vndksupport: Loading /vendor/lib64/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.137   487   487 D vndksupport: Loading /vendor/lib/hw/camera.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.142   513   513 D QSEECOMD: : Init gpfs_start ret = 0
+01-04 22:07:24.142   513   513 D QSEECOMD: : gpfile system services: Started (Listener ID = 28672)
+01-04 22:07:24.142   513   513 E QSEECOMD: : Listener: index = 6, hierarchy = 1
+01-04 22:07:24.144   485   485 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.146   485   485 D vndksupport: Loading /vendor/lib/hw/android.hardware.audio@5.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.151   495   495 I SDM     : ExtensionInterface::CreateExtensionInterface: 
+01-04 22:07:24.151   495   495 I SDM     : SDM-EXTENSION Version: Date: 08/28/19, Commit: 27121f1, Change: Ibd1f5bcfa4
+01-04 22:07:24.151   493   493 D LocSvc_LBSProxy: checkIfLocationExtendedClientExists] File does not Exist
+01-04 22:07:24.151   513   513 D QSEECOMD: : Init dlopen(libqisl.so, RTLD_NOW) succeeds
+01-04 22:07:24.151   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle qisl_start) succeeds
+01-04 22:07:24.151   513   576 I QISL    : QSEE Interrupt Service Listener Thread is started
+01-04 22:07:24.151   513   576 D QSEECOMAPI: QSEECom_register_listener 36864 sb_length = 0x1f4
+01-04 22:07:24.152   495   495 I SDM     : HWInfo::GetHWResourceInfo: SDE Version = 5, SDE Revision = 100e0000, RGB = 2, VIG = 1, DMA = 1, Cursor = 1
+01-04 22:07:24.152   495   495 I SDM     : HWInfo::GetHWResourceInfo: Upscale Ratio = 20, Downscale Ratio = 4, Blending Stages = 4
+01-04 22:07:24.152   495   495 I SDM     : HWInfo::GetHWResourceInfo: SourceSplit = 0 QSEED3 = 0
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: BWC = 0, UBWC = 1, Decimation = 1, Tile Format = 0 Concurrent Writeback = 0
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: MaxLowBw = 3100000 , MaxHighBw = 3100000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: MaxPipeBw = 2300000 KBps, MaxSDEClock = 320000000 Hz, ClockFudgeFactor = 1.050000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Prefill factors: Tiled_NV12 = 8, Tiled = 4, Linear = 1, Scale = 1, Fudge_factor = 2
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetMDSSRotatorInfo: MDSS Rotator: Count = 1, Downscale = 1, Min_downscale = 2.000000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Has Support for multiple bw limits shown below
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Mode-index=0  total_bw_limit=3100000 and pipe_bw_limit=2300000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Mode-index=1  total_bw_limit=1700000 and pipe_bw_limit=2300000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Mode-index=2  total_bw_limit=3100000 and pipe_bw_limit=2300000
+01-04 22:07:24.153   495   495 I SDM     : HWInfo::GetHWResourceInfo: Mode-index=3  total_bw_limit=3100000 and pipe_bw_limit=2300000
+01-04 22:07:24.154   495   495 I SDM     : SessionManager::SessionManager: Allocate buffers synchronously = 0
+01-04 22:07:24.156   513   576 I QISL    : QSEE Interrupt Service Listener was activated successfully
+01-04 22:07:24.156   513   513 D QSEECOMD: : Init qisl_start ret = 0
+01-04 22:07:24.156   513   513 D QSEECOMD: : interrupt services: Started (Listener ID = 36864)
+01-04 22:07:24.156   513   513 E QSEECOMD: : Listener: index = 7, hierarchy = 1
+01-04 22:07:24.156   513   513 E QSEECOMD: : Init dlopen(libspl.so, RLTD_NOW) is failed.... dlopen failed: library "libspl.so" not found
+01-04 22:07:24.156   513   513 E QSEECOMD: : Listener: index = 8, hierarchy = 1
+01-04 22:07:24.159   493   577 I LocSvc_api_v02: locClientOpen:2179]: Service instance id is -1
+01-04 22:07:24.159   493   577 I LocSvc_api_v02: ---> locClientOpenInstance line 2054 loc client open
+01-04 22:07:24.161   493   565 I LocSvc_CtxBase: readConfig] GNSS Deployment: QGNSS
+01-04 22:07:24.161   493   577 E QMI_FW  : QMUXD: WARNING qmi_qmux_if_pwr_up_init failed! rc=-6
+01-04 22:07:24.161   493   493 I ServiceManagement: Registered android.hardware.gnss@2.0::IGnss/default (start delay of 393ms)
+01-04 22:07:24.161   493   493 I ServiceManagement: Removing namespace from process name android.hardware.gnss@2.0-service-qti to gnss@2.0-service-qti.
+01-04 22:07:24.162   493   493 I android.hardware.gnss@2.0-service-qti: Registration complete for android.hardware.gnss@2.0::IGnss/default.
+01-04 22:07:24.162   485   485 I ServiceManagement: Registered android.hardware.audio@5.0::IDevicesFactory/default (start delay of 414ms)
+01-04 22:07:24.162   485   485 I ServiceManagement: Removing namespace from process name android.hardware.audio@2.0-service to audio@2.0-service.
+01-04 22:07:24.163   485   485 I audiohalservice: Registration complete for android.hardware.audio@5.0::IDevicesFactory/default.
+01-04 22:07:24.163   495   495 I SDM     : CoreInterface::CreateCore: Open interface handle = 0x7d2ee34000
+01-04 22:07:24.163   495   495 I SDM     : HWCSession::Register: Set uevent listener = 0x7d2ee26280
+01-04 22:07:24.163   495   495 I SDM     : HWInfo::GetFirstDisplayInterfaceType: First display is internal display
+01-04 22:07:24.164   495   495 I SDM     : CPUHint::Init: Invalid CPU Hint Pre-enable Window -1
+01-04 22:07:24.164   485   485 D vndksupport: Loading /vendor/lib/hw/android.hardware.audio.effect@5.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::Init: access(/dev/graphics/fb0) successful
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: Device type = 0, Display Port = 1, Display Mode = 1, Device Node = 0, Is Primary = 1
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: Partial Update = 0, supported roi_count =1, Dynamic FPS = 0
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: Align: left = 0, width = 0, top = 0, height = 0
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: ROI: min_width = 0, min_height = 0, need_merge = 0
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: FPS: min = 0, max =0
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: Ping Pong Split = 0
+01-04 22:07:24.165   495   495 I SDM     : HWDevice::PopulateHWPanelInfo: Left Split = 0, Right Split = 0
+01-04 22:07:24.166   513   513 D QSEECOMD: : Init dlopen(libGPreqcancel.so, RTLD_NOW) succeeds
+01-04 22:07:24.166   513   513 D QSEECOMD: : Init::Init dlsym(g_FSHandle gp_reqcancel_start) succeeds
+01-04 22:07:24.166   513   513 D QSEECOMAPI: QSEECom_register_listener 4352 sb_length = 0x5000
+01-04 22:07:24.166   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.167   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.167   495   495 W SDM     : HWDevice::GetHWPanelInfoByNode: Failed to open msm_fb_panel_info node device node 2
+01-04 22:07:24.167   495   495 W SDM     : HWDevice::GetHWPanelInfoByNode: Failed to open msm_fb_panel_info node device node 3
+01-04 22:07:24.168   493   581 I LocSvc_BatteryListener: init:108] Get health service in 0 tries
+01-04 22:07:24.168   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.169   495   495 I SDM     : HWDevice::GetHWPanelMaxBrightnessFromNode: Max brightness level = 255
+01-04 22:07:24.169   495   495 W SDM     : HWDevice::GetHWPanelInfoByNode: Failed to open msm_fb_panel_info node device node 2
+01-04 22:07:24.169   495   495 W SDM     : HWDevice::GetHWPanelInfoByNode: Failed to open msm_fb_panel_info node device node 3
+01-04 22:07:24.169   495   495 I SDM     : StrategyImpl::SetIdleTimeoutMs: Idle timeout: active = 70, inactive = 520
+01-04 22:07:24.169   495   495 W SDM     : ColorManager::CreateColorManagerProxy: PAV2 version is versions = 11, version = 11 
+01-04 22:07:24.170   513   513 D QSEECOMD: : Init gp_reqcancel_start ret = 0
+01-04 22:07:24.171   513   513 D QSEECOMD: : gp request cancellation services: Started (Listener ID = 4352)
+01-04 22:07:24.171   513   513 E QSEECOMD: : Listener: index = 9, hierarchy = 1
+01-04 22:07:24.172   513   513 E QSEECOMD: : Init dlopen(libops.so, RLTD_NOW) is failed.... dlopen failed: library "libops.so" not found
+01-04 22:07:24.173   495   495 W SDM     : DisplayBase::Init: InitColorModes failed for display = 0
+01-04 22:07:24.173   495   495 W SDM     : HWEvents::InitializePollFd: open failed for display=0 event=idle_power_collapse, error=No such file or directory
+01-04 22:07:24.173   513   513 D QSEECOMD: : QSEECOM DAEMON RUNNING 
+01-04 22:07:24.173   495   495 I SDM     : HWCDisplay::Init: Display created with id: 0
+01-04 22:07:24.173   495   495 W SDM     : HWCDisplay::PopulateColorModes: GetColorModeCount failed, use native color mode
+01-04 22:07:24.173   495   495 I SDM     : DisplayBase::SetFrameBufferConfig: New framebuffer resolution (720x1440)
+01-04 22:07:24.189   485   485 I ServiceManagement: Registered android.hardware.audio.effect@5.0::IEffectsFactory/default (start delay of 441ms)
+01-04 22:07:24.189   485   485 I audiohalservice: Registration complete for android.hardware.audio.effect@5.0::IEffectsFactory/default.
+01-04 22:07:24.191   485   485 D vndksupport: Loading /vendor/lib/hw/android.hardware.soundtrigger@2.2-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.203   485   485 D vndksupport: Loading /vendor/lib/hw/sound_trigger.primary.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.220   495   495 I SDM     : HWCDisplay::SetFrameBufferResolution: New framebuffer resolution (720x1440)
+01-04 22:07:24.221   495   495 I SDM     : HWCColorManager::CreateColorManager: Successfully loaded libsdm-disp-vndapis.so
+01-04 22:07:24.228   495   495 I SDM     : HWCColorManager::CreateColorManager: Successfully loaded libsdm-disp-vndapis.so and libsdm-diag.so and diag_init'ed
+01-04 22:07:24.229   495   495 I ServiceManagement: Registered android.hardware.graphics.composer@2.1::IComposer/default (start delay of 462ms)
+01-04 22:07:24.230   495   495 I ServiceManagement: Removing namespace from process name android.hardware.graphics.composer@2.1-service to composer@2.1-service.
+01-04 22:07:24.230   495   495 I android.hardware.graphics.composer@2.1-service: Registration complete for android.hardware.graphics.composer@2.1::IComposer/default.
+01-04 22:07:24.232   493   493 I LocSvc_HIDL_vendor.qti.gnss@3.0-service: main
+01-04 22:07:24.233   485   485 D sound_trigger_hw: stdev_open: Enter
+01-04 22:07:24.234   493   493 D vndksupport: Loading /vendor/lib64/hw/vendor.qti.gnss@3.0-impl.so from current namespace instead of sphal namespace.
+01-04 22:07:24.235   426   426 D QSEECOMAPI: QSEECom_get_handle sb_length = 0xa000
+01-04 22:07:24.236   426   426 D QSEECOMAPI: App is already loaded QSEE and app id = 65537
+01-04 22:07:24.236   427   427 D QSEECOMAPI: QSEECom_get_handle sb_length = 0xa000
+01-04 22:07:24.236   427   427 D QSEECOMAPI: App is already loaded QSEE and app id = 65537
+01-04 22:07:24.245   426   426 E KeymasterUtils: TA API Major Version: 3
+01-04 22:07:24.245   426   426 E KeymasterUtils: TA API Minor Version: 0
+01-04 22:07:24.245   426   426 E KeymasterUtils: TA Major Version: 3
+01-04 22:07:24.245   426   426 E KeymasterUtils: TA Minor Version: 121
+01-04 22:07:24.246   485   485 D sound_trigger_hw: load_audio_hal: ahal is using proprietary API version 0x0101
+01-04 22:07:24.246   485   485 I sound_trigger_platform: platform_stdev_init: Enter
+01-04 22:07:24.251   427   427 E KeymasterUtils: TA API Major Version: 3
+01-04 22:07:24.251   427   427 E KeymasterUtils: TA API Minor Version: 0
+01-04 22:07:24.251   427   427 E KeymasterUtils: TA Major Version: 3
+01-04 22:07:24.251   427   427 E KeymasterUtils: TA Minor Version: 121
+01-04 22:07:24.254   426   426 I ServiceManagement: Registered android.hardware.gatekeeper@1.0::IGatekeeper/default (start delay of 107896ms)
+01-04 22:07:24.255   426   426 I ServiceManagement: Removing namespace from process name android.hardware.gatekeeper@1.0-service-qti to gatekeeper@1.0-service-qti.
+01-04 22:07:24.255   426   426 I android.hardware.gatekeeper@1.0-service: Registration complete for android.hardware.gatekeeper@1.0::IGatekeeper/default.
+01-04 22:07:24.256   519   519 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.258   493   580 W LocSvc_LocIpc: send:66] failed reason: No such file or directory
+01-04 22:07:24.260   427   427 I ServiceManagement: Registered android.hardware.keymaster@3.0::IKeymasterDevice/default (start delay of 107902ms)
+01-04 22:07:24.260   519   519 I SurfaceFlinger: Using HWComposer service: 'default'
+01-04 22:07:24.260   519   519 I SurfaceFlinger: SurfaceFlinger is starting
+01-04 22:07:24.260   427   427 I ServiceManagement: Removing namespace from process name android.hardware.keymaster@3.0-service-qti to keymaster@3.0-service-qti.
+01-04 22:07:24.260   485   485 W sound_trigger_platform: load_smlib: generate_sound_trigger_phrase_recognition_event_v3 not found. undefined symbol: generate_sound_trigger_phrase_recognition_event_v3
+01-04 22:07:24.260   427   427 I android.hardware.keymaster@3.0-service: Registration complete for android.hardware.keymaster@3.0::IKeymasterDevice/default.
+01-04 22:07:24.262   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.263   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.265   519   519 I SurfaceFlinger: Enabling backpressure propagation for Client Composition
+01-04 22:07:24.265   519   519 I SurfaceFlinger: Enabling HWC virtual displays
+01-04 22:07:24.266   519   519 I SurfaceFlinger: Treble testing override: 'false'
+01-04 22:07:24.266   519   519 W SurfaceFlinger: Unable to open libdolphin.so: dlopen failed: library "libdolphin.so" not found.
+01-04 22:07:24.266   519   519 E SurfaceFlinger: Unable to open libframeextension.so: dlopen failed: library "libframeextension.so" not found.
+01-04 22:07:24.270   519   519 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+01-04 22:07:24.270   519   519 I SurfaceFlinger: Phase offset NS: 1000000
+01-04 22:07:24.271   519   519 W SurfaceFlinger: Unable to open libdolphin.so: dlopen failed: library "libdolphin.so" not found.
+01-04 22:07:24.271   519   604 W SurfaceFlinger: Ignoring VSYNC request while display is disconnected
+01-04 22:07:24.271   519   519 W SurfaceFlinger: Unable to open libdolphin.so: dlopen failed: library "libdolphin.so" not found.
+01-04 22:07:24.271   519   604 W SurfaceFlinger: Ignoring VSYNC request while display is disconnected
+01-04 22:07:24.271   519   519 W SurfaceFlinger: Unable to open libdolphin.so: dlopen failed: library "libdolphin.so" not found.
+01-04 22:07:24.271   519   605 W SurfaceFlinger: Ignoring VSYNC request while display is disconnected
+01-04 22:07:24.272   519   519 W SurfaceFlinger: Unable to open libdolphin.so: dlopen failed: library "libdolphin.so" not found.
+01-04 22:07:24.272   519   605 W SurfaceFlinger: Ignoring VSYNC request while display is disconnected
+01-04 22:07:24.272   519   519 D RenderEngine: RenderEngine GLES Backend
+01-04 22:07:24.275   493   493 I LocSvc_HIDL_HidlGnss: try getting IGnss from android.hardware.gnss@2.0-impl-qti.so
+01-04 22:07:24.275   493   493 I LocSvc_GnssInterface: ===> HIDL_FETCH_IGnss line 664 
+01-04 22:07:24.275   493   493 I LocSvc_GnssInterface: ===> Gnss line 98 
+01-04 22:07:24.277   519   519 D libEGL  : loaded /vendor/lib64/egl/libEGL_adreno.so
+01-04 22:07:24.279   493   493 I ServiceManagement: Registered vendor.qti.gnss@3.0::ILocHidlGnss/gnss_vendor (start delay of 511ms)
+01-04 22:07:24.279   493   493 I LocSvc_HIDL_vendor.qti.gnss@3.0-service: Registration complete for vendor.qti.gnss@3.0::ILocHidlGnss/gnss_vendor.
+01-04 22:07:24.366   519   519 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+01-04 22:07:24.371   519   519 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_adreno.so
+01-04 22:07:24.398   519   519 I AdrenoGLES: QUALCOMM build                   : 961b24f, Ib57168459a
+01-04 22:07:24.398   519   519 I AdrenoGLES: Build Date                       : 02/24/20
+01-04 22:07:24.398   519   519 I AdrenoGLES: OpenGL ES Shader Compiler Version: EV031.27.05.06
+01-04 22:07:24.398   519   519 I AdrenoGLES: Local Branch                     : 
+01-04 22:07:24.398   519   519 I AdrenoGLES: Remote Branch                    : 
+01-04 22:07:24.398   519   519 I AdrenoGLES: Remote Branch                    : 
+01-04 22:07:24.398   519   519 I AdrenoGLES: Reconstruct Branch               : 
+01-04 22:07:24.398   519   519 I AdrenoGLES: Build Config                     : S L 8.0.12 AArch64
+01-04 22:07:24.404   516   516 I FastMixerState: sMaxFastTracks = 8
+01-04 22:07:24.406   516   516 V MediaUtils: physMem: 2974912512
+01-04 22:07:24.407   516   516 V MediaUtils: requested limit: 536870912
+01-04 22:07:24.407   516   516 I libc    : malloc_limit: Allocation limit enabled, max size 536870912 bytes
+01-04 22:07:24.407   519   519 I AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+01-04 22:07:24.407   516   516 I audioserver: ServiceManager: 0x78e56b8dc0
+01-04 22:07:24.407   516   516 W BatteryNotifier: batterystats service unavailable!
+01-04 22:07:24.407   516   516 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:24.411   401   401 I hwservicemanager: getTransport: Cannot find entry android.hardware.audio@5.0::IDevicesFactory/msd in either framework or device manifest.
+01-04 22:07:24.415   516   516 I AudioFlinger: Using default 3000 mSec as standby time.
+01-04 22:07:24.417   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.417   516   516 E APM::Serializer: deserialize: Could not parse /odm/etc/audio_policy_configuration.xml document.
+01-04 22:07:24.417   516   516 E APM::Serializer: deserialize: Could not parse /vendor/etc/audio/audio_policy_configuration.xml document.
+01-04 22:07:24.418   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.420   519   519 I RenderEngine: OpenGL ES informations:
+01-04 22:07:24.420   519   519 I RenderEngine: vendor    : Qualcomm
+01-04 22:07:24.420   519   519 I RenderEngine: renderer  : Adreno (TM) 505
+01-04 22:07:24.420   519   519 I RenderEngine: version   : OpenGL ES 3.2 V@415.0 (GIT@961b24f, Ib57168459a, 1582563833) (Date:02/24/20)
+01-04 22:07:24.420   519   519 I RenderEngine: extensions: GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_vertex_half_float GL_OES_framebuffer_object GL_OES_rgb8_rgba8 GL_OES_compressed_ETC1_RGB8_texture GL_AMD_compressed_ATC_texture GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_OES_texture_compression_astc GL_OES_texture_npot GL_EXT_texture_filter_anisotropic GL_EXT_texture_format_BGRA8888 GL_EXT_read_format_bgra GL_OES_texture_3D GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_QCOM_alpha_test GL_OES_depth24 GL_OES_packed_depth_stencil GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_EXT_sRGB GL_OES_texture_float GL_OES_texture_float_linear GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_EXT_texture_type_2_10_10_10_REV GL_EXT_texture_sRGB_decode GL_EXT_texture_format_sRGB_override GL_OES_element_index_uint GL_EXT_copy_image GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_OES_texture_stencil8 GL_EXT_shader_io_blocks GL_OES_shader_image_atomic GL_OES_sample_variables GL_EX
+01-04 22:07:24.420   519   519 I RenderEngine: GL_MAX_TEXTURE_SIZE = 16384
+01-04 22:07:24.420   519   519 I RenderEngine: GL_MAX_VIEWPORT_DIMS = 16384
+01-04 22:07:24.423   401   401 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+01-04 22:07:24.424   495   495 D ComposerHal: failed to get mapper 3.0 service, falling back to mapper 2.0
+01-04 22:07:24.425   495   495 D vndksupport: Loading /vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl-2.1.so from current namespace instead of sphal namespace.
+01-04 22:07:24.427   495   495 D vndksupport: Loading /vendor/lib64/hw/gralloc.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.429   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.16::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.430   495   495 D SDM     : HWCSession::RegisterCallback: Registering callback: Hotplug
+01-04 22:07:24.430   519   519 I HWComposer: Switching to legacy multi-display mode
+01-04 22:07:24.431   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.12::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.432   495   495 I SDM     : HWCDisplay::GetHdrCapabilities: HDR is not supported
+01-04 22:07:24.432   495   495 I SDM     : HWCDisplay::GetHdrCapabilities: HDR is not supported
+01-04 22:07:24.434   401   401 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+01-04 22:07:24.434   519   519 W Gralloc3: mapper 3.x is not supported
+01-04 22:07:24.436   516   516 E APM::AudioPolicyEngine/Config: parse: Could not parse document /vendor/etc/audio_policy_engine_configuration.xml
+01-04 22:07:24.436   516   516 W APM::AudioPolicyEngine/Base: loadAudioPolicyEngineConfig: No configuration found, using default matching phone experience.
+01-04 22:07:24.436   516   516 E APM::AudioPolicyEngine/Config: parseLegacyVolumeFile: Could not parse document /odm/etc/audio_policy_configuration.xml
+01-04 22:07:24.439   401   401 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.allocator@3.0::IAllocator/default in either framework or device manifest.
+01-04 22:07:24.439   519   519 W Gralloc3: allocator 3.x is not supported
+01-04 22:07:24.451   485   584 D vndksupport: Loading /vendor/lib/hw/audio.primary.msm8937.so from current namespace instead of sphal namespace.
+01-04 22:07:24.451   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.452   485   584 D audio_hw_primary: adev_open: enter
+01-04 22:07:24.452   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.9::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:24.453   495   495 D SDM     : HWCSession::RegisterCallback: Registering callback: Refresh
+01-04 22:07:24.453   495   495 D SDM     : HWCSession::RegisterCallback: Registering callback: Vsync
+01-04 22:07:25.261   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 1
+01-04 22:07:25.336   519   519 D RenderEngine: shader cache generated - 48 shaders in 883.379395 ms
+01-04 22:07:25.336   519   519 E SurfaceFlinger: Unable to get composer extension
+01-04 22:07:25.339   519   519 I ServiceManagement: Registered android.frameworks.displayservice@1.0::IDisplayService/default (start delay of 1501ms)
+01-04 22:07:25.339   519   519 D SurfaceFlinger: Setting power mode 2 on display 0
+01-04 22:07:25.339   495   495 I SDM     : DisplayBase::SetDisplayState: Set state = 1, display 0
+01-04 22:07:25.340   519   519 D SurfaceFlinger: Finished setting power mode 2 on display 0
+01-04 22:07:25.452   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 1
+01-04 22:07:25.659   622   622 D BootAnimation: BootAnimationStartTiming start time: 165201ms
+01-04 22:07:25.659   622   622 D BootAnimation: BootAnimationPreloadTiming start time: 165201ms
+01-04 22:07:25.659   622   622 D BootAnimation: Animation customzation path: 
+01-04 22:07:25.781   622   622 D BootAnimation: BootAnimationPreloadStopTiming start time: 165323ms
+01-04 22:07:25.784   622   625 E cutils-trace: Error opening trace file: No such file or directory (2)
+01-04 22:07:25.789   622   625 D libEGL  : loaded /vendor/lib64/egl/libEGL_adreno.so
+01-04 22:07:25.797   622   625 D libEGL  : loaded /vendor/lib64/egl/libGLESv1_CM_adreno.so
+01-04 22:07:25.804   622   625 D libEGL  : loaded /vendor/lib64/egl/libGLESv2_adreno.so
+01-04 22:07:25.834   622   625 I AdrenoGLES: QUALCOMM build                   : 961b24f, Ib57168459a
+01-04 22:07:25.834   622   625 I AdrenoGLES: Build Date                       : 02/24/20
+01-04 22:07:25.834   622   625 I AdrenoGLES: OpenGL ES Shader Compiler Version: EV031.27.05.06
+01-04 22:07:25.834   622   625 I AdrenoGLES: Local Branch                     : 
+01-04 22:07:25.834   622   625 I AdrenoGLES: Remote Branch                    : 
+01-04 22:07:25.834   622   625 I AdrenoGLES: Remote Branch                    : 
+01-04 22:07:25.834   622   625 I AdrenoGLES: Reconstruct Branch               : 
+01-04 22:07:25.834   622   625 I AdrenoGLES: Build Config                     : S L 8.0.12 AArch64
+01-04 22:07:25.842   622   625 I AdrenoGLES: PFP: 0x005ff112, ME: 0x005ff066
+01-04 22:07:25.848   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:25.849   401   401 I hwservicemanager: getTransport: Cannot find entry vendor.display.config@1.7::IDisplayConfig/default in either framework or device manifest.
+01-04 22:07:25.854   622   625 D BootAnimation: BootAnimationShownTiming start time: 165396ms
+01-04 22:07:25.871   401   401 I hwservicemanager: getTransport: Cannot find entry android.hardware.graphics.mapper@3.0::IMapper/default in either framework or device manifest.
+01-04 22:07:25.871   622   625 W Gralloc3: mapper 3.x is not supported
+01-04 22:07:25.876   622   625 E Adreno-UNKNOWN: <DrawTexture:62>: GL_INVALID_VALUE
+01-04 22:07:25.884   519   519 I SurfaceFlinger: Enter boot animation
+01-04 22:07:25.893   495   495 D qdutils : DEBUG_CALC_FPS: 0
+01-04 22:07:25.893   495   495 D qdutils : period: 10
+01-04 22:07:25.893   495   495 D qdutils : ignorethresh_us: 500000
+01-04 22:07:26.159   482   482 I Dpps    : AbaContext():18 ABA context instantiation
+01-04 22:07:26.159   482   482 I Dpps    : AmbientLightContext():16 AL context instantiation
+01-04 22:07:26.159   482   482 I Dpps    : InitFeatureContext():93 Initialize feature context
+01-04 22:07:26.159   482   482 I Dpps    : InitContext():83 display fd 5 histogram bins 256  components 1 Lut size 256 panel 0 sensor type 1
+01-04 22:07:26.159   482   482 I Dpps    : OpenCommonSysfsFds():357 lcd_bl_event_fd_ is 6
+01-04 22:07:26.159   482   482 I Dpps    : OpenCommonSysfsFds():366 blank_event_fd_ is 7
+01-04 22:07:26.159   482   482 I Dpps    : OpenCommonSysfsFds():374 lcd_brightness_fd_ is 8
+01-04 22:07:26.159   482   482 I Dpps    : InitContext():111 hist_sysfs_fd_ is 9
+01-04 22:07:26.160   482   482 I Dpps    : InitContext():185 Context Initialization successfull
+01-04 22:07:26.160   482   482 I Dpps    : CreateAbaThread():58 Create ABA thread
+01-04 22:07:26.160   482   482 I Dpps    : CreateAbaThread():81 Create ABA thread done ret 0
+01-04 22:07:26.160   482   482 I Dpps    : InitContext():71 display_fd 5, panel 0, sensor type 1 display_type 0
+01-04 22:07:26.160   482   627 I Dpps    : ProcessAbaThread():166 ABA thread execution started
+01-04 22:07:26.160   482   482 I Dpps    : Open():60 display node path /dev/graphics/fb0
+01-04 22:07:26.160   482   482 I Dpps    : SetupPollFd():224 opening the sysfs node sys/class/graphics/fb0/show_blank_event, index 1
+01-04 22:07:26.160   482   482 I Dpps    : SetupPollFd():224 opening the sysfs node sys/class/graphics/fb0/ad_bl_event, index 2
+01-04 22:07:26.160   482   482 I Dpps    : SetupPollFd():224 opening the sysfs node sys/class/graphics/fb0/ad_event, index 3
+01-04 22:07:26.160   482   482 I Dpps    : SelectLightSensor():532 sensor_type 1
+01-04 22:07:26.160   482   482 I Dpps    : SelectLightSensor():535 sensor_type_ 1
+01-04 22:07:26.160   482   482 I Dpps    : InitLightSensor():567 sensor_type_ 1
+01-04 22:07:26.160   482   482 I Dpps    : InitLightSensor():570 SensorTypeSimulation
+01-04 22:07:26.160   482   482 I Dpps    : InitLightSensor():588 light sensor initialization ret 0
+01-04 22:07:26.160   482   482 I Dpps    : InitContext():126 create AD thread
+01-04 22:07:26.160   482   482 I Dpps    : CreateAmbientLightThread():910 Create AL thread
+01-04 22:07:26.160   482   482 I Dpps    : CreateAmbientLightThread():924 Create AL thread done ret 0
+01-04 22:07:26.160   482   482 I Dpps    : InitFeatureContext():142 Initialize feature context done ret 0
+01-04 22:07:26.161   482   628 I Dpps    : ProcessAmbientLightThread():940 AL thread execution started
+01-04 22:07:26.261   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 2
+01-04 22:07:26.452   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 2
+01-04 22:07:27.262   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 3
+01-04 22:07:27.452   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 3
+01-04 22:07:28.262   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 4
+01-04 22:07:28.453   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 4
+01-04 22:07:29.262   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 5
+01-04 22:07:29.453   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 5
+01-04 22:07:30.262   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 6
+01-04 22:07:30.453   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 6
+01-04 22:07:31.263   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 7
+01-04 22:07:31.454   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 7
+01-04 22:07:32.263   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 8
+01-04 22:07:32.454   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 8
+01-04 22:07:33.263   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 9
+01-04 22:07:33.454   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 9
+01-04 22:07:34.061   512   512 E Sensors : sns_debug_mr.c(366):Sensors DIAG Init: Waiting for diag service timed out
+01-04 22:07:34.061   512   512 E Sensors : sns_debug_main.c(499):Sensors DIAG init: Can't register with debug
+01-04 22:07:34.061   512   512 E Sensors : sns_init_la.c(165):Error 5 initializing sns_debug_test_init2
+01-04 22:07:34.263   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 10
+01-04 22:07:34.454   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 10
+01-04 22:07:35.264   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 11
+01-04 22:07:35.455   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 11
+01-04 22:07:36.264   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 12
+01-04 22:07:36.455   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 12
+01-04 22:07:37.264   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 13
+01-04 22:07:37.455   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 13
+01-04 22:07:38.264   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 14
+01-04 22:07:38.455   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 14
+01-04 22:07:39.265   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 15
+01-04 22:07:39.456   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 15
+01-04 22:07:40.265   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 16
+01-04 22:07:40.456   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 16
+01-04 22:07:41.032   493   586 I LocSvc_BatteryListener: operator():153] healthInfo cb thread: cb CHARGING
+01-04 22:07:41.265   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 17
+01-04 22:07:41.412   546   571 I adbd    : USB event: FUNCTIONFS_ENABLE
+01-04 22:07:41.456   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 17
+01-04 22:07:41.569   546   546 I adbd    : UsbFfs: already offline
+01-04 22:07:42.266   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 18
+01-04 22:07:42.456   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 18
+01-04 22:07:43.266   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 19
+01-04 22:07:43.457   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 19
+01-04 22:07:44.061   512   512 E Sensors : sns_main.c(447):Timeout waiting for SMGR service. Exit sensors daemon!
+01-04 22:07:44.061   512   512 W Sensors : sns_main.c(355):sns_main_exit called unlock daemon to exit
+01-04 22:07:44.061   512   512 E Sensors : sns_main.c(561):Exiting! Err 0
+01-04 22:07:44.266   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 20
+01-04 22:07:44.457   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 20
+01-04 22:07:45.266   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 21
+01-04 22:07:45.457   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 21
+01-04 22:07:46.267   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 22
+01-04 22:07:46.457   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 22
+01-04 22:07:47.267   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 23
+01-04 22:07:47.458   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 23
+01-04 22:07:48.267   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 24
+01-04 22:07:48.458   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 24
+01-04 22:07:49.267   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 25
+01-04 22:07:49.458   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 25
+01-04 22:07:50.268   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 26
+01-04 22:07:50.459   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 26
+01-04 22:07:51.268   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 27
+01-04 22:07:51.459   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 27
+01-04 22:07:52.268   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 28
+01-04 22:07:52.459   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 28
+01-04 22:07:53.269   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 29
+01-04 22:07:53.459   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 29
+01-04 22:07:54.020   500   500 E libsensor1: wait_for_service: Service 0 is not available (30000 ms)
+01-04 22:07:54.021   500   500 E qti_sensors_hal: sensor1 open failed!
+01-04 22:07:54.021   500   500 I         : Loaded library from sensors.ssc.so
+01-04 22:07:54.021   500   500 E /vendor/bin/hw/android.hardware.sensors@1.0-service: HAL specifies version 1.4, but does not implement set_operation_mode()
+01-04 22:07:54.024   500   500 I ServiceManagement: Registered android.hardware.sensors@1.0::ISensors/default (start delay of 30236ms)
+01-04 22:07:54.024   500   500 I ServiceManagement: Removing namespace from process name android.hardware.sensors@1.0-service to sensors@1.0-service.
+01-04 22:07:54.025   500   500 I android.hardware.sensors@1.0-service: Registration complete for android.hardware.sensors@1.0::ISensors/default.
+01-04 22:07:54.269   485   485 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 30
+01-04 22:07:54.460   485   584 D audio_hw_utils: audio_extn_utils_open_snd_mixer: retry, retry_num 30
